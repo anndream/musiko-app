@@ -12,7 +12,7 @@
     <string name="queue_add">Adicionar na fila</string>
     <string name="queue_song_add">%1s adicionada na fila!</string>
     <string name="queue_song_remove">%1s será apagada da fila. Continuar?</string>
-    <string name="queue_songs_clear">A fila será limpa. Continuar?</string>
+    <string name="queue_songs_clear">A fila será vazia. Continuar?</string>
     <string name="error_no_queue">Nenhuma música na fila!</string>
     <string name="loved_songs">Músicas favoritas</string>
     <string name="loved_song_added">%1s (%2s) adicionada às músicas favoritas</string>
@@ -43,7 +43,7 @@
     <string name="edge_pref_summary_on">Desativar edge-to-edge</string>
     <string name="edge_pref_summary_off">Ativar edge-to-edge</string>
     <string name="active_fragments_pref_title">Abas ativas</string>
-    <string name="active_fragments_pref_warning">Você não pode simplesmente remover todas as abas! :P</string>
+    <string name="active_fragments_pref_warning">Você não pode simplesmente remover todas as abas!</string>
     <string name="sorting_pref_default">Pré-Definido</string>
     <string name="precise_volume_pref_title">Controle preciso do volume</string>
     <string name="precise_volume_pref_summary_on">Desativar controle preciso do volume</string>
@@ -77,8 +77,9 @@
     <string name="eq_pref_note_summary">Nota: O equalizador do sistema terá preferência, a menos que você desative o aplicativo \"equalizador do sistema\" nas configurações do sistema. :)</string>
     <string name="fast_seeking_pref_title">Busca rápida</string>
     <string name="fast_seeking_pref_summary">Avanço rápido / retrocesso (segundos)</string>
-    <string name="fast_seeking_actions_pref_title">Ações de notificação adicionais</string>
-    <string name="fast_seeking_actions_pref_summary_off">Prefere fechar/repetir ações</string>
+    <string name="fast_seeking_actions_pref_title">"Ações adicionais para notificação "</string>
+    <string name="fast_seeking_actions_pref_summary_off">Fechar/repetir ações</string>
     <string name="fast_seeking_actions_pref_summary_on">Prefira ações de busca rápida</string>
+    <string name="equalizer">Equalizador</string>
 
 </resources>
