@@ -62,4 +62,23 @@
     <string name="sorting_pref_track">Pelo número da faixa &#8595;</string>
     <string name="sorting_pref_track_inv">Pelo número da faixa &#8593;</string>
     <string name="error_not_ready">Ocorreu algum problema ao carregar sua biblioteca de músicas! :( Isso acontece provavelmente devido ao cartão de memória, que quando sai do lugar força o Android a carregar novamente os registros de dados. Tente novamente daqui a pouco :)</string>
+    <!-- Preferences - covers -->
+    <string name="covers_pref_title">Capas de álbum incorporadas</string>
+    <string name="covers_pref_summary_on">Mostrar capas de álbuns</string>
+    <string name="covers_pref_summary_off">Ocultar capas de álbuns</string>
+    <string name="error_list_ended">Lista encerrada.</string>
+    <string name="error_eq">Opa, ocorreu um erro!</string>
+    <string name="on_list_ended_pref_title">Quando uma lista termina &#8230;</string>
+    <string name="on_list_ended_pref_stop_title">Parar</string>
+    <string name="on_list_ended_pref_continue_title">Continuar</string>
+    <string name="song_visual_pref_title">Visualização sonora</string>
+    <string name="song_visual_pref_tl_title">Título</string>
+    <string name="song_visual_pref_fn_title">Nome do arquivo</string>
+    <string name="eq_pref_note_summary">Nota: O equalizador do sistema terá preferência, a menos que você desative o aplicativo \"equalizador do sistema\" nas configurações do sistema. :)</string>
+    <string name="fast_seeking_pref_title">Busca rápida</string>
+    <string name="fast_seeking_pref_summary">Avanço rápido / retrocesso (segundos)</string>
+    <string name="fast_seeking_actions_pref_title">Ações de notificação adicionais</string>
+    <string name="fast_seeking_actions_pref_summary_off">Prefere fechar/repetir ações</string>
+    <string name="fast_seeking_actions_pref_summary_on">Prefira ações de busca rápida</string>
+
 </resources>
