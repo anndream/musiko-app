@@ -79,7 +79,7 @@
     <string name="fast_seeking_pref_summary">Avanço rápido / retrocesso (segundos)</string>
     <string name="fast_seeking_actions_pref_title">"Ações adicionais para notificação "</string>
     <string name="fast_seeking_actions_pref_summary_off">Fechar/repetir ações</string>
-    <string name="fast_seeking_actions_pref_summary_on">Prefira ações de busca rápida</string>
+    <string name="fast_seeking_actions_pref_summary_on">Ações de busca rápida</string>
     <string name="equalizer">Equalizador</string>
 
 </resources>
