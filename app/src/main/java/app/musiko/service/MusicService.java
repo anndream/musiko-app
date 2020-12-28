@@ -1,16 +1,4 @@
-/*
- * Copyright (c) 2019 Hemanth Savarala.
- *
- * Licensed under the GNU General Public License v3
- *
- * This is free software: you can redistribute it and/or modify it under
- * the terms of the GNU General Public License as published by
- *  the Free Software Foundation either version 3 of the License, or (at your option) any later version.
- *
- * This software is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
- * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
- * See the GNU General Public License for more details.
- */
+
 
 package app.musiko.service;
 
@@ -85,7 +73,7 @@ import app.musiko.service.notification.PlayingNotificationOreo;
 import app.musiko.service.playback.Playback;
 import app.musiko.util.MusicUtil;
 import app.musiko.util.PreferenceUtil;
-import app.musiko.util.RetroUtil;
+import app.musiko.util.MusikoUtil;
 
 import static app.musiko.ConstantsKt.ALBUM_ART_ON_LOCK_SCREEN;
 import static app.musiko.ConstantsKt.BLURRED_ALBUM_ART;
@@ -1175,7 +1163,7 @@ public class MusicService extends Service
         }
 
         if (PreferenceUtil.INSTANCE.isAlbumArtOnLockScreen()) {
-            final Point screenSize = RetroUtil.getScreenSize(MusicService.this);
+            final Point screenSize = MusikoUtil.getScreenSize(MusicService.this);
             final BitmapRequestBuilder<?, Bitmap> request = SongGlideRequest.Builder.from(Glide.with(MusicService.this), song)
                     .checkIgnoreMediaStore(MusicService.this)
                     .asBitmap().build();

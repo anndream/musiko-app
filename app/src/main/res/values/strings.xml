@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <resources>
     <string name="about_album_label">About %s</string>
-    <string name="about_settings_summary">Team, social links</string>
+    <string name="about_settings_summary">Maintainer, social links</string>
 
     <string name="accent_color">Accent color</string>
     <string name="accent_color_desc">The theme accent color, defaults to purple</string>
@@ -129,7 +129,7 @@
     <string name="cascading">Cascading</string>
 
     <string name="changelog">Changelog</string>
-    <string name="changelog_summary">Changelog maintained on the Telegram channel</string>
+    <string name="changelog_summary">See the apps change logs</string>
 
     <string name="circle">Circle</string>
 
@@ -366,6 +366,8 @@
 
     <string name="pick_from_local_storage">Pick from local storage</string>
 
+    <string name="pinterest_page">Pinterest</string>
+    <string name="pinterest_page_summary">Follow Pinterest page for Musiko design inspiration</string>
 
     <string name="plain">Plain</string>
 
@@ -493,8 +495,8 @@
 
     <string name="restoring_purchase">Restoring purchase…</string>
 
-    <string name="retro_music_player">Musiko Player</string>
-    <string name="retro_music_pro">Musiko Pro</string>
+    <string name="musiko_app_player">Musiko Player</string>
+    <string name="musiko_app_pro">Musiko Pro</string>
 
     <string name="ringtone_summary">The app needs permission to access your device settings in order to set music as Ringtone</string>
     <string name="ringtone_title">Ringtone</string>
@@ -609,7 +611,7 @@
     <string name="translate">Translate</string>
     <string name="translate_community">Help us translate the app to your language</string>
 
-    <string name="try_retro_music_premium">Try Musiko Premium</string>
+    <string name="try_musiko_app_premium">Try Musiko Premium</string>
 
     <string name="twitter_page">Twitter</string>
     <string name="twitter_page_summary">Share your design with Musiko</string>

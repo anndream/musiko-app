@@ -48,7 +48,7 @@ import app.musiko.network.model.LastFmAlbum
 import app.musiko.repository.RealRepository
 import app.musiko.util.MusicUtil
 import app.musiko.util.PreferenceUtil
-import app.musiko.util.RetroUtil
+import app.musiko.util.MusikoUtil
 import app.musiko.util.color.MediaNotificationProcessor
 import com.bumptech.glide.Glide
 import com.google.android.material.transition.MaterialArcMotion
@@ -242,8 +242,8 @@ class AlbumDetailsFragment : AbsMainActivityFragment(R.layout.fragment_album_det
                 scrobbles.show()
                 scrobblesLabel.show()
 
-                listeners.text = RetroUtil.formatValue(lastFmAlbum.album.listeners.toFloat())
-                scrobbles.text = RetroUtil.formatValue(lastFmAlbum.album.playcount.toFloat())
+                listeners.text = MusikoUtil.formatValue(lastFmAlbum.album.listeners.toFloat())
+                scrobbles.text = MusikoUtil.formatValue(lastFmAlbum.album.playcount.toFloat())
             }
         }
     }

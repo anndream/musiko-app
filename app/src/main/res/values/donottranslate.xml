@@ -12,7 +12,7 @@
     </string-array>
 
     <string name="app_name" translatable="false">Musiko</string>
-    <string name="git_hub" translatable="false">GitHub</string>
+    <string name="git_hub" translatable="false">Site</string>
 
 
     <string name="app_shortcut_last_added_long" translatable="false">@string/last_added</string>

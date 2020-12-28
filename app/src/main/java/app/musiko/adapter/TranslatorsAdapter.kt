@@ -10,8 +10,8 @@ import androidx.recyclerview.widget.RecyclerView
 import app.musiko.R
 import app.musiko.extensions.hide
 import app.musiko.model.Contributor
-import app.musiko.util.RetroUtil
-import app.musiko.views.RetroShapeableImageView
+import app.musiko.util.MusikoUtil
+import app.musiko.views.MusikoShapeableImageView
 
 class TranslatorsAdapter(
     private var contributors: List<Contributor>
@@ -31,7 +31,7 @@ class TranslatorsAdapter(
         val contributor = contributors[position]
         holder.bindData(contributor)
         holder.itemView.setOnClickListener {
-            RetroUtil.openUrl(it?.context as Activity, contributors[position].link)
+            MusikoUtil.openUrl(it?.context as Activity, contributors[position].link)
         }
     }
 
@@ -42,7 +42,7 @@ class TranslatorsAdapter(
     inner class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val title: TextView = itemView.findViewById(R.id.title)
         val text: TextView = itemView.findViewById(R.id.text)
-        val image: RetroShapeableImageView = itemView.findViewById(R.id.icon)
+        val image: MusikoShapeableImageView = itemView.findViewById(R.id.icon)
 
         internal fun bindData(contributor: Contributor) {
             title.text = contributor.name

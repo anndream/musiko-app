@@ -63,7 +63,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:behavior_hideable="false"
-        app:layout_behavior="app.musiko.RetroBottomSheetBehavior">
+        app:layout_behavior="app.musiko.MusikoBottomSheetBehavior">
 
         <LinearLayout
             android:id="@+id/container"

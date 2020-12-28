@@ -39,7 +39,7 @@ import app.musiko.network.model.LastFmArtist
 import app.musiko.repository.RealRepository
 import app.musiko.util.CustomArtistImageUtil
 import app.musiko.util.MusicUtil
-import app.musiko.util.RetroUtil
+import app.musiko.util.MusikoUtil
 import com.bumptech.glide.Glide
 import com.google.android.material.transition.MaterialContainerTransform
 import com.google.android.material.transition.MaterialElevationScale
@@ -126,7 +126,7 @@ class ArtistDetailsFragment : AbsMainActivityFragment(R.layout.fragment_artist_d
     private fun showArtist(artist: Artist) {
         this.artist = artist
         loadArtistImage(artist)
-        if (RetroUtil.isAllowedToDownloadMetadata(requireContext())) {
+        if (MusikoUtil.isAllowedToDownloadMetadata(requireContext())) {
             loadBiography(artist.name)
         }
         artistTitle.text = artist.name
@@ -181,9 +181,9 @@ class ArtistDetailsFragment : AbsMainActivityFragment(R.layout.fragment_artist_d
                     scrobbles.show()
                     scrobblesLabel.show()
                     listeners.text =
-                        RetroUtil.formatValue(lastFmArtist.artist.stats.listeners.toFloat())
+                        MusikoUtil.formatValue(lastFmArtist.artist.stats.listeners.toFloat())
                     scrobbles.text =
-                        RetroUtil.formatValue(lastFmArtist.artist.stats.playcount.toFloat())
+                        MusikoUtil.formatValue(lastFmArtist.artist.stats.playcount.toFloat())
                 }
             }
         }

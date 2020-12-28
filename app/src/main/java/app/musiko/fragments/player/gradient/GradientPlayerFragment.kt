@@ -20,7 +20,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import app.musiko.appthemehelper.util.ColorUtil
 import app.musiko.R
-import app.musiko.RetroBottomSheetBehavior
+import app.musiko.MusikoBottomSheetBehavior
 import app.musiko.adapter.song.PlayingQueueAdapter
 import app.musiko.db.PlaylistEntity
 import app.musiko.db.SongEntity
@@ -145,8 +145,8 @@ class GradientPlayerFragment : AbsPlayerFragment(R.layout.fragment_gradient_play
         }
     }
 
-    private fun getQueuePanel(): RetroBottomSheetBehavior<ConstraintLayout> {
-        return RetroBottomSheetBehavior.from(playerQueueSheet) as RetroBottomSheetBehavior<ConstraintLayout>
+    private fun getQueuePanel(): MusikoBottomSheetBehavior<ConstraintLayout> {
+        return MusikoBottomSheetBehavior.from(playerQueueSheet) as MusikoBottomSheetBehavior<ConstraintLayout>
     }
 
     override fun onResume() {

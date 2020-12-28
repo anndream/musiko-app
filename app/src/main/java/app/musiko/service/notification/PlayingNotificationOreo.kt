@@ -1,16 +1,4 @@
-/*
- * Copyright (c) 2019 Hemanth Savarala.
- *
- * Licensed under the GNU General Public License v3
- *
- * This is free software: you can redistribute it and/or modify it under
- * the terms of the GNU General Public License as published by
- *  the Free Software Foundation either version 3 of the License, or (at your option) any later version.
- *
- * This software is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
- * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
- * See the GNU General Public License for more details.
- */
+
 
 package app.musiko.service.notification
 
@@ -34,8 +22,8 @@ import app.musiko.model.Song
 import app.musiko.service.MusicService
 import app.musiko.service.MusicService.*
 import app.musiko.util.PreferenceUtil
-import app.musiko.util.RetroUtil
-import app.musiko.util.RetroUtil.createBitmap
+import app.musiko.util.MusikoUtil
+import app.musiko.util.MusikoUtil.createBitmap
 import app.musiko.util.color.MediaNotificationProcessor
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.animation.GlideAnimation
@@ -165,28 +153,28 @@ class PlayingNotificationOreo : PlayingNotification() {
                         val secondary = MaterialValueHelper.getSecondaryTextColor(service, dark)
 
                         val close = createBitmap(
-                            RetroUtil.getTintedVectorDrawable(
+                            MusikoUtil.getTintedVectorDrawable(
                                 service,
                                 R.drawable.ic_close,
                                 primary
                             )!!, NOTIFICATION_CONTROLS_SIZE_MULTIPLIER
                         )
                         val prev = createBitmap(
-                            RetroUtil.getTintedVectorDrawable(
+                            MusikoUtil.getTintedVectorDrawable(
                                 service,
                                 R.drawable.ic_skip_previous_round_white_32dp,
                                 primary
                             )!!, NOTIFICATION_CONTROLS_SIZE_MULTIPLIER
                         )
                         val next = createBitmap(
-                            RetroUtil.getTintedVectorDrawable(
+                            MusikoUtil.getTintedVectorDrawable(
                                 service,
                                 R.drawable.ic_skip_next_round_white_32dp,
                                 primary
                             )!!, NOTIFICATION_CONTROLS_SIZE_MULTIPLIER
                         )
                         val playPause = createBitmap(
-                            RetroUtil.getTintedVectorDrawable(
+                            MusikoUtil.getTintedVectorDrawable(
                                 service,
                                 if (isPlaying)
                                     R.drawable.ic_pause_white_48dp
@@ -215,7 +203,7 @@ class PlayingNotificationOreo : PlayingNotification() {
                         notificationLayout.setImageViewBitmap(
                             R.id.smallIcon,
                             createBitmap(
-                                RetroUtil.getTintedVectorDrawable(
+                                MusikoUtil.getTintedVectorDrawable(
                                     service,
                                     R.drawable.ic_notification,
                                     secondary
@@ -225,7 +213,7 @@ class PlayingNotificationOreo : PlayingNotification() {
                         notificationLayoutBig.setImageViewBitmap(
                             R.id.smallIcon,
                             createBitmap(
-                                RetroUtil.getTintedVectorDrawable(
+                                MusikoUtil.getTintedVectorDrawable(
                                     service,
                                     R.drawable.ic_notification,
                                     secondary

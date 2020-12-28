@@ -6,7 +6,7 @@ import androidx.sqlite.db.SupportSQLiteDatabase
 import app.musiko.db.BlackListStoreDao
 import app.musiko.db.BlackListStoreEntity
 import app.musiko.db.PlaylistWithSongs
-import app.musiko.db.RetroDatabase
+import app.musiko.db.MusikoDatabase
 import app.musiko.fragments.LibraryViewModel
 import app.musiko.fragments.albums.AlbumDetailsViewModel
 import app.musiko.fragments.artists.ArtistDetailsViewModel
@@ -46,7 +46,7 @@ val networkModule = module {
 private val roomModule = module {
 
     single {
-        Room.databaseBuilder(androidContext(), RetroDatabase::class.java, "playlist.db")
+        Room.databaseBuilder(androidContext(), MusikoDatabase::class.java, "playlist.db")
             .allowMainThreadQueries()
             .addCallback(object : RoomDatabase.Callback() {
                 override fun onOpen(db: SupportSQLiteDatabase) {
@@ -62,23 +62,23 @@ private val roomModule = module {
             .build()
     }
     factory {
-        get<RetroDatabase>().lyricsDao()
+        get<MusikoDatabase>().lyricsDao()
     }
 
     factory {
-        get<RetroDatabase>().playlistDao()
+        get<MusikoDatabase>().playlistDao()
     }
 
     factory {
-        get<RetroDatabase>().blackListStore()
+        get<MusikoDatabase>().blackListStore()
     }
 
     factory {
-        get<RetroDatabase>().playCountDao()
+        get<MusikoDatabase>().playCountDao()
     }
 
     factory {
-        get<RetroDatabase>().historyDao()
+        get<MusikoDatabase>().historyDao()
     }
 
     single {

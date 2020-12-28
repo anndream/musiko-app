@@ -23,7 +23,7 @@ import app.musiko.helper.MusicPlayerRemote
 import app.musiko.helper.MusicProgressViewUpdateHelper
 import app.musiko.helper.PlayPauseButtonOnClickHandler
 import app.musiko.util.PreferenceUtil
-import app.musiko.util.RetroUtil
+import app.musiko.util.MusikoUtil
 import kotlin.math.abs
 import kotlinx.android.synthetic.main.fragment_mini_player.*
 
@@ -49,7 +49,7 @@ open class MiniPlayerFragment : AbsMusicServiceFragment(R.layout.fragment_mini_p
         view.setOnTouchListener(FlingPlayBackController(requireContext()))
         setUpMiniPlayer()
 
-        if (RetroUtil.isTablet()) {
+        if (MusikoUtil.isTablet()) {
             actionNext.show()
             actionPrevious.show()
             actionNext?.show()

@@ -8,15 +8,15 @@ import androidx.coordinatorlayout.widget.CoordinatorLayout;
 import com.google.android.material.bottomsheet.BottomSheetBehavior;
 import org.jetbrains.annotations.NotNull;
 
-public class RetroBottomSheetBehavior<V extends View> extends BottomSheetBehavior<V> {
+public class MusikoBottomSheetBehavior<V extends View> extends BottomSheetBehavior<V> {
 
-  private static final String TAG = "RetroBottomSheetBehavior";
+  private static final String TAG = "MusikoBottomSheetBehavior";
 
   private boolean allowDragging = true;
 
-  public RetroBottomSheetBehavior() {}
+  public MusikoBottomSheetBehavior() {}
 
-  public RetroBottomSheetBehavior(Context context, AttributeSet attrs) {
+  public MusikoBottomSheetBehavior(Context context, AttributeSet attrs) {
     super(context, attrs);
   }
 

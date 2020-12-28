@@ -6,7 +6,9 @@
 
     <include layout="@layout/card_credit" />
 
+    <include layout="@layout/card_musiko_info" />
 
+    <include layout="@layout/card_social" />
 
     <include layout="@layout/card_other" />
 

@@ -19,7 +19,7 @@ import app.musiko.glide.palette.BitmapPaletteWrapper
 import app.musiko.service.MusicService
 import app.musiko.service.MusicService.*
 import app.musiko.util.PreferenceUtil
-import app.musiko.util.RetroUtil
+import app.musiko.util.MusikoUtil
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.animation.GlideAnimation
 import com.bumptech.glide.request.target.SimpleTarget
@@ -40,7 +40,7 @@ class AppWidgetSmall : BaseAppWidget() {
         appWidgetView.setImageViewBitmap(
             R.id.button_next,
             createBitmap(
-                RetroUtil.getTintedVectorDrawable(
+                MusikoUtil.getTintedVectorDrawable(
                     context,
                     R.drawable.ic_skip_next,
                     MaterialValueHelper.getSecondaryTextColor(context, true)
@@ -50,7 +50,7 @@ class AppWidgetSmall : BaseAppWidget() {
         appWidgetView.setImageViewBitmap(
             R.id.button_prev,
             createBitmap(
-                RetroUtil.getTintedVectorDrawable(
+                MusikoUtil.getTintedVectorDrawable(
                     context,
                     R.drawable.ic_skip_previous,
                     MaterialValueHelper.getSecondaryTextColor(context, true)
@@ -60,7 +60,7 @@ class AppWidgetSmall : BaseAppWidget() {
         appWidgetView.setImageViewBitmap(
             R.id.button_toggle_play_pause,
             createBitmap(
-                RetroUtil.getTintedVectorDrawable(
+                MusikoUtil.getTintedVectorDrawable(
                     context,
                     R.drawable.ic_play_arrow_white_32dp,
                     MaterialValueHelper.getSecondaryTextColor(context, true)
@@ -142,7 +142,7 @@ class AppWidgetSmall : BaseAppWidget() {
                         else R.drawable.ic_play_arrow_white_32dp
                         appWidgetView.setImageViewBitmap(
                             R.id.button_toggle_play_pause, createBitmap(
-                                RetroUtil.getTintedVectorDrawable(
+                                MusikoUtil.getTintedVectorDrawable(
                                     service, playPauseRes, color
                                 )!!, 1f
                             )
@@ -151,14 +151,14 @@ class AppWidgetSmall : BaseAppWidget() {
                         // Set prev/next button drawables
                         appWidgetView.setImageViewBitmap(
                             R.id.button_next, createBitmap(
-                                RetroUtil.getTintedVectorDrawable(
+                                MusikoUtil.getTintedVectorDrawable(
                                     service, R.drawable.ic_skip_next, color
                                 )!!, 1f
                             )
                         )
                         appWidgetView.setImageViewBitmap(
                             R.id.button_prev, createBitmap(
-                                RetroUtil.getTintedVectorDrawable(
+                                MusikoUtil.getTintedVectorDrawable(
                                     service, R.drawable.ic_skip_previous, color
                                 )!!, 1f
                             )

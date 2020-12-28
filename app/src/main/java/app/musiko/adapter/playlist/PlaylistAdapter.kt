@@ -191,8 +191,8 @@ class PlaylistAdapter(
           override fun onPostExecute(result: Bitmap?) {
               super.onPostExecute(result)
               viewHolder.image?.setImageBitmap(result)
-              val color = RetroColorUtil.getColor(
-                  RetroColorUtil.generatePalette(
+              val color = MusikoColorUtil.getColor(
+                  MusikoColorUtil.generatePalette(
                       result
                   ),
                   ATHUtil.resolveColor(activity, R.attr.colorSurface)

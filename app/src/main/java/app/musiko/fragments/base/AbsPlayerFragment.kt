@@ -207,7 +207,7 @@ abstract class AbsPlayerFragment(@LayoutRes layout: Int) : AbsMainActivityFragme
                 withContext(Main) {
                     val icon =
                         if (isFavorite) R.drawable.ic_favorite else R.drawable.ic_favorite_border
-                    val drawable: Drawable? = RetroUtil.getTintedVectorDrawable(
+                    val drawable: Drawable? = MusikoUtil.getTintedVectorDrawable(
                         requireContext(),
                         icon,
                         toolbarIconColor()

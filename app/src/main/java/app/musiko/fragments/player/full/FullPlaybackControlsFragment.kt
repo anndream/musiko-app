@@ -37,7 +37,7 @@ import app.musiko.model.Song
 import app.musiko.service.MusicService
 import app.musiko.util.MusicUtil
 import app.musiko.util.PreferenceUtil
-import app.musiko.util.RetroUtil
+import app.musiko.util.MusikoUtil
 import app.musiko.util.color.MediaNotificationProcessor
 import kotlinx.android.synthetic.main.fragment_full_player_controls.*
 import kotlinx.coroutines.Dispatchers

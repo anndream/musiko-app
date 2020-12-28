@@ -15,7 +15,7 @@ import app.musiko.glide.audiocover.AudioFileCover
 import app.musiko.interfaces.ICabHolder
 import app.musiko.interfaces.ICallbacks
 import app.musiko.util.MusicUtil
-import app.musiko.util.RetroUtil
+import app.musiko.util.MusikoUtil
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.bumptech.glide.signature.MediaStoreSignature
@@ -95,7 +95,7 @@ class SongFileAdapter(
                 )
             )
         } else {
-            val error = RetroUtil.getTintedVectorDrawable(
+            val error = MusikoUtil.getTintedVectorDrawable(
                 activity, R.drawable.ic_file_music, iconColor
             )
             Glide.with(activity)

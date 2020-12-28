@@ -8,9 +8,16 @@ object Constants {
     const val PRO_VERSION_PRODUCT_ID = "pro_version"
     const val RATE_ON_GOOGLE_PLAY =
         "https://play.google.com/store/apps/details?id=app.musiko"
-
+    const val TRANSLATE = "https://musiko.now.sh/translate"
+    const val SITE_PROJECT = "https://musiko.now.sh/"
+    const val APP_CHANGE_LOG = "https://musiko.now.sh/log"
     const val USER_PROFILE = "profile.jpg"
     const val USER_BANNER = "banner.jpg"
+    const val APP_INSTAGRAM_LINK = "https://www.instagram.com/MusikoApp/"
+    const val APP_TELEGRAM_LINK = "https://t.me/MusikoApp/"
+    const val APP_TWITTER_LINK = "https://twitter.com/MusikoApp"
+    const val FAQ_LINK = "https://musiko.now.sh/faq"
+    const val PINTEREST = "https://in.pinterest.com/MusikoApp/"
     const val AUDIO_SCROBBLER_URL = "https://ws.audioscrobbler.com/2.0/"
 
     const val IS_MUSIC =

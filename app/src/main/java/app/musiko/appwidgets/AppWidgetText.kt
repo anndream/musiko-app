@@ -16,7 +16,7 @@ import app.musiko.appwidgets.base.BaseAppWidget
 import app.musiko.service.MusicService
 import app.musiko.service.MusicService.*
 import app.musiko.util.PreferenceUtil
-import app.musiko.util.RetroUtil
+import app.musiko.util.MusikoUtil
 
 class AppWidgetText : BaseAppWidget() {
     override fun defaultAppWidget(context: Context, appWidgetIds: IntArray) {
@@ -24,7 +24,7 @@ class AppWidgetText : BaseAppWidget() {
 
         appWidgetView.setImageViewBitmap(
             R.id.button_next, createBitmap(
-                RetroUtil.getTintedVectorDrawable(
+                MusikoUtil.getTintedVectorDrawable(
                     context, R.drawable.ic_skip_next, ContextCompat.getColor(
                         context, R.color.md_white_1000
                     )
@@ -33,7 +33,7 @@ class AppWidgetText : BaseAppWidget() {
         )
         appWidgetView.setImageViewBitmap(
             R.id.button_prev, createBitmap(
-                RetroUtil.getTintedVectorDrawable(
+                MusikoUtil.getTintedVectorDrawable(
                     context, R.drawable.ic_skip_previous, ContextCompat.getColor(
                         context, R.color.md_white_1000
                     )
@@ -42,7 +42,7 @@ class AppWidgetText : BaseAppWidget() {
         )
         appWidgetView.setImageViewBitmap(
             R.id.button_toggle_play_pause, createBitmap(
-                RetroUtil.getTintedVectorDrawable(
+                MusikoUtil.getTintedVectorDrawable(
                     context, R.drawable.ic_play_arrow_white_32dp, ContextCompat.getColor(
                         context, R.color.md_white_1000
                     )
@@ -115,7 +115,7 @@ class AppWidgetText : BaseAppWidget() {
         else R.drawable.ic_play_arrow_white_32dp
         appWidgetView.setImageViewBitmap(
             R.id.button_toggle_play_pause, createBitmap(
-                RetroUtil.getTintedVectorDrawable(
+                MusikoUtil.getTintedVectorDrawable(
                     App.getContext(), playPauseRes, ContextCompat.getColor(
                         App.getContext(), R.color.md_white_1000
                     )
@@ -124,7 +124,7 @@ class AppWidgetText : BaseAppWidget() {
         )
         appWidgetView.setImageViewBitmap(
             R.id.button_next, createBitmap(
-                RetroUtil.getTintedVectorDrawable(
+                MusikoUtil.getTintedVectorDrawable(
                     App.getContext(),
                     R.drawable.ic_skip_next,
                     ContextCompat.getColor(
@@ -135,7 +135,7 @@ class AppWidgetText : BaseAppWidget() {
         )
         appWidgetView.setImageViewBitmap(
             R.id.button_prev, createBitmap(
-                RetroUtil.getTintedVectorDrawable(
+                MusikoUtil.getTintedVectorDrawable(
                     App.getContext(),
                     R.drawable.ic_skip_previous,
                     ContextCompat.getColor(

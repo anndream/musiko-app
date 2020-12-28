@@ -1,4 +1,16 @@
-
+/*
+ * Copyright (c) 2020 Hemanth Savarala.
+ *
+ * Licensed under the GNU General Public License v3
+ *
+ * This is free software: you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License as published by
+ *  the Free Software Foundation either version 3 of the License, or (at your option) any later version.
+ *
+ * This software is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+ * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * See the GNU General Public License for more details.
+ */
 
 package app.musiko.fragments.folder;
 
@@ -67,7 +79,7 @@ import app.musiko.model.Song;
 import app.musiko.util.DensityUtil;
 import app.musiko.util.FileUtil;
 import app.musiko.util.PreferenceUtil;
-import app.musiko.util.RetroColorUtil;
+import app.musiko.util.MusikoColorUtil;
 import app.musiko.util.ThemedFastScroller;
 import app.musiko.views.BreadCrumbLayout;
 import app.musiko.views.ScrollingViewOnApplyWindowInsetsListener;
@@ -172,7 +184,7 @@ public class FoldersFragment extends AbsMainActivityFragment
         String hexColor = String.format("#%06X", 0xFFFFFF & color);
         Spanned appName =
                 HtmlCompat.fromHtml(
-                        "<span  style='color:" + hexColor + ";'>Musiko</span>",
+                        "Musiko <span  style='color:" + hexColor + ";'>Music</span>",
                         HtmlCompat.FROM_HTML_MODE_COMPACT);
         appNameText.setText(appName);
     }
@@ -442,7 +454,7 @@ public class FoldersFragment extends AbsMainActivityFragment
                         .setMenu(menuRes)
                         .setCloseDrawableRes(R.drawable.ic_close)
                         .setBackgroundColor(
-                                RetroColorUtil.shiftBackgroundColorForLightText(
+                                MusikoColorUtil.shiftBackgroundColorForLightText(
                                         ATHUtil.INSTANCE.resolveColor(requireContext(), R.attr.colorSurface)))
                         .start(callback);
         return cab;
