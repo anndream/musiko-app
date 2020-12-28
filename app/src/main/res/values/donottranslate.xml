@@ -3,12 +3,7 @@
     <string-array name="donation_ids" translatable="false">
         <item>app_musiko_donate_1</item>
         <item>app_musiko_donate_2</item>
-        <item>app_musiko_donate_3</item>
-        <item>app_musiko_donate_4</item>
-        <item>app_musiko_donate_5</item>
-        <item>app_musiko_donate_6</item>
-        <item>app_musiko_donate_7</item>
-        <item>app_musiko_donate_8</item>
+
     </string-array>
 
     <string name="app_name" translatable="false">Musiko</string>
