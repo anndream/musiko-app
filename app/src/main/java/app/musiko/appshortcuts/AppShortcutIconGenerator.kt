@@ -13,7 +13,7 @@ import androidx.annotation.RequiresApi
 import app.musiko.appthemehelper.ThemeStore
 import app.musiko.R
 import app.musiko.util.PreferenceUtil
-import app.musiko.util.RetroUtil
+import app.musiko.util.MusikoUtil
 
 @RequiresApi(Build.VERSION_CODES.N_MR1)
 object AppShortcutIconGenerator {
@@ -53,8 +53,8 @@ object AppShortcutIconGenerator {
         backgroundColor: Int
     ): Icon {
         // Get and tint foreground and background drawables
-        val vectorDrawable = RetroUtil.getTintedVectorDrawable(context, iconId, foregroundColor)
-        val backgroundDrawable = RetroUtil.getTintedVectorDrawable(
+        val vectorDrawable = MusikoUtil.getTintedVectorDrawable(context, iconId, foregroundColor)
+        val backgroundDrawable = MusikoUtil.getTintedVectorDrawable(
             context, R.drawable.ic_app_shortcut_background, backgroundColor
         )
 

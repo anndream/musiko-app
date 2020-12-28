@@ -17,7 +17,7 @@ import app.musiko.helper.MusicProgressViewUpdateHelper
 import app.musiko.lyrics.LrcView
 import app.musiko.model.Song
 import app.musiko.util.LyricUtil
-import app.musiko.util.RetroUtil
+import app.musiko.util.MusikoUtil
 import com.google.android.material.color.MaterialColors
 import com.google.android.material.transition.platform.MaterialArcMotion
 import com.google.android.material.transition.platform.MaterialContainerTransform
@@ -136,7 +136,7 @@ class LyricsActivity : AbsMusicServiceActivity(), MusicProgressViewUpdateHelper.
             return true
         }
         if (item.itemId == R.id.action_search) {
-            RetroUtil.openUrl(this, googleSearchLrcUrl)
+            MusikoUtil.openUrl(this, googleSearchLrcUrl)
         }
         return super.onOptionsItemSelected(item)
     }

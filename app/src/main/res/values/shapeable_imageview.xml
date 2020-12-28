@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
-    <declare-styleable name="RetroShapeableImageView">
+    <declare-styleable name="MusikoShapeableImageView">
         <attr name="retroCornerSize" format="dimension" />
         <attr name="circleShape" format="boolean" />
     </declare-styleable>

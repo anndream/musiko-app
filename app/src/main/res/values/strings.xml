@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <resources>
     <string name="about_album_label">About %s</string>
-    <string name="about_settings_summary">Team, social links</string>
+    <string name="about_settings_summary">Maintainer, social links</string>
 
     <string name="accent_color">Accent color</string>
     <string name="accent_color_desc">The theme accent color, defaults to purple</string>
@@ -129,7 +129,7 @@
     <string name="cascading">Cascading</string>
 
     <string name="changelog">Changelog</string>
-    <string name="changelog_summary">Changelog maintained on the Telegram channel</string>
+    <string name="changelog_summary">See the apps change logs</string>
 
     <string name="circle">Circle</string>
 
@@ -366,6 +366,8 @@
 
     <string name="pick_from_local_storage">Pick from local storage</string>
 
+    <string name="pinterest_page">Pinterest</string>
+    <string name="pinterest_page_summary">Follow Pinterest page for Musiko design inspiration</string>
 
     <string name="plain">Plain</string>
 
@@ -493,8 +495,8 @@
 
     <string name="restoring_purchase">Restoring purchase…</string>
 
-    <string name="retro_music_player">Musiko Player</string>
-    <string name="retro_music_pro">Musiko Pro</string>
+    <string name="musiko_app_player">Musiko Player</string>
+    <string name="musiko_app_pro">Musiko Pro</string>
 
     <string name="ringtone_summary">The app needs permission to access your device settings in order to set music as Ringtone</string>
     <string name="ringtone_title">Ringtone</string>
@@ -609,7 +611,7 @@
     <string name="translate">Translate</string>
     <string name="translate_community">Help us translate the app to your language</string>
 
-    <string name="try_retro_music_premium">Try Musiko Premium</string>
+    <string name="try_musiko_app_premium">Try Musiko Premium</string>
 
     <string name="twitter_page">Twitter</string>
     <string name="twitter_page_summary">Share your design with Musiko</string>
@@ -654,4 +656,54 @@
     <string name="you_will_be_forwarded_to_the_issue_tracker_website">You will be forwarded to the issue tracker website.</string>
 
     <string name="your_account_data_is_only_used_for_authentication">Your account data is only used for authentication.</string>
+    <string name="add_lyrics">Add lyrics</string>
+    <string name="add_photo">Add photo</string>
+    <string name="add_time_framed_lryics">Add time framed lyrics</string>
+    <string name="album_or_artist_empty">Album or artist empty</string>
+    <string name="base_color_theme">Based on color theme</string>
+    <string name="bass_boost">Bass boost</string>
+    <string name="bio">Bio</string>
+    <string name="bug_report_uploading">Bug report uploading</string>
+    <string name="card_circular_style">Card circular style</string>
+    <string name="carousal">Carousal</string>
+    <string name="cast">Cast</string>
+    <string name="clear_playlist_title">Clear playlist title</string>
+    <string name="clear_playlist_x"><![CDATA[Clear playlist title <b>%1$s</b>? Isso n\u00e3o pode ser desfeito!]]></string>
+    <string name="close_notification">Close</string>
+    <string name="color_theme_name">color name</string>
+    <string name="clear_app_data">Clear app data</string>
+    <string name="default_hint">No lyric</string>
+    <string name="deleting_songs">Deleting songs</string>
+    <string name="download_from_last_fm">Download from LastFM</string>
+    <string name="edit">Edit</string>
+    <string name="edit_cover">Edit cover</string>
+    <string name="error">Error</string>
+    <string name="google_plus_community">Communiy</string>
+    <string name="lets_play_something">Lets play somenthing</string>
+    <string name="library">Lib</string>
+    <string name="new_banner_photo">New banner photo</string>
+    <string name="new_profile_photo">New profile photo</string>
+    <string name="normal_style">Normal style</string>
+    <string name="paste_lyrics_here">Past lyrics here</string>
+    <string name="pick_image_intent_text">Pick image</string>
+    <string name="playlist_empty_text">PlayList empty</string>
+    <string name="pref_album_detail_style">Style of album</string>
+    <string name="pref_dialog_corner_summary">Dialog corner</string>
+    <string name="amount">Amount</string>
+    <string name="note">Note(Optional)</string>
+    <string name="start_payment">Start payment</string>
+    <string name="virtualizer">Virtualizer</string>
+    <string name="title_user_info">What\'s your name?</string>
+    <string name="title_good_night">good evening</string>
+    <string name="title_good_morning">Good Morning</string>
+    <string name="title_good_evening">good evening</string>
+    <string name="title_good_day">Good Morning</string>
+    <string name="title_good_afternoon">Good afternoon</string>
+    <string name="title_dashboard">Control panel</string>
+    <string name="system_equalizer">System equalizer</string>
+    <string name="summary_user_info">Show only your name on the home screen</string>
+    <string name="slide">Slide</string>
+    <string name="small">Portuguese</string>
+    <string name="set_photo">Set a profile photo</string>
+    <string name="pref_dialog_corner_title">Dialog corner</string>
 </resources>

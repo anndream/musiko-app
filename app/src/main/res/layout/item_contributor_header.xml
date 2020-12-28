@@ -11,7 +11,7 @@
     android:paddingBottom="24dp"
     tools:ignore="PrivateResource">
 
-    <app.musiko.views.RetroShapeableImageView
+    <app.musiko.views.MusikoShapeableImageView
         android:id="@+id/icon"
         android:layout_width="72dp"
         android:layout_height="72dp"

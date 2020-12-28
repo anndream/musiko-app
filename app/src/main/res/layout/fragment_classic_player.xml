@@ -81,7 +81,7 @@
         android:theme="@style/TopCornerCardView"
         app:behavior_hideable="false"
         app:cardElevation="24dp"
-        app:layout_behavior="app.musiko.RetroBottomSheetBehavior"
+        app:layout_behavior="app.musiko.MusikoBottomSheetBehavior"
         tools:peekHeight="0dp">
 
         <LinearLayout

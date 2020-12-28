@@ -28,7 +28,7 @@
 -dontwarn **$$Lambda$*
 -dontwarn javax.annotation.**
 
-# RetroFit
+# MusikoFit
 -dontwarn retrofit.**
 -keep class retrofit.** { *; }
 

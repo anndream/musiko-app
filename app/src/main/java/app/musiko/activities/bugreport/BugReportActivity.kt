@@ -217,7 +217,7 @@ open class BugReportActivity : AbsThemeActivity() {
         onSaveExtraInfo()
 
         val report = Report(bugTitle, bugDescription, deviceInfo, extraInfo)
-        val target = GithubTarget("h4h13", "MusikoPlayer")
+        val target = GithubTarget("hebertcisco", "MusikoApp")
 
         ReportIssueAsyncTask.report(this, report, target, login)
     }

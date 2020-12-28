@@ -15,7 +15,7 @@ import androidx.fragment.app.commit
 import app.musiko.appthemehelper.util.ATHUtil
 import app.musiko.appthemehelper.util.ColorUtil
 import app.musiko.R
-import app.musiko.RetroBottomSheetBehavior
+import app.musiko.MusikoBottomSheetBehavior
 import app.musiko.extensions.*
 import app.musiko.fragments.LibraryViewModel
 import app.musiko.fragments.MiniPlayerFragment
@@ -53,7 +53,7 @@ abstract class AbsSlidingMusicPanelActivity : AbsMusicServiceActivity() {
     }
 
     protected val libraryViewModel by viewModel<LibraryViewModel>()
-    private lateinit var bottomSheetBehavior: RetroBottomSheetBehavior<FrameLayout>
+    private lateinit var bottomSheetBehavior: MusikoBottomSheetBehavior<FrameLayout>
     private var playerFragment: AbsPlayerFragment? = null
     private var miniPlayerFragment: MiniPlayerFragment? = null
     private var nowPlayingScreen: NowPlayingScreen? = null
@@ -110,7 +110,7 @@ abstract class AbsSlidingMusicPanelActivity : AbsMusicServiceActivity() {
     }
 
     private fun setupBottomSheet() {
-        bottomSheetBehavior = from(slidingPanel) as RetroBottomSheetBehavior
+        bottomSheetBehavior = from(slidingPanel) as MusikoBottomSheetBehavior
         bottomSheetBehavior.addBottomSheetCallback(bottomSheetCallbackList)
     }
 

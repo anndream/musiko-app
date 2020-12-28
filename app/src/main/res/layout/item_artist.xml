@@ -8,7 +8,7 @@
     android:orientation="vertical"
     android:padding="4dp">
 
-    <app.musiko.views.RetroShapeableImageView
+    <app.musiko.views.MusikoShapeableImageView
         android:id="@+id/image"
         android:layout_width="144dp"
         android:layout_height="144dp"

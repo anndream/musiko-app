@@ -20,7 +20,7 @@ import app.musiko.appthemehelper.util.ColorUtil
 import app.musiko.appthemehelper.util.TintHelper
 import app.musiko.appthemehelper.util.ToolbarContentTintHelper
 import app.musiko.R
-import app.musiko.RetroBottomSheetBehavior
+import app.musiko.MusikoBottomSheetBehavior
 import app.musiko.adapter.song.PlayingQueueAdapter
 import app.musiko.extensions.hide
 import app.musiko.extensions.show
@@ -318,8 +318,8 @@ class ClassicPlayerFragment : AbsPlayerFragment(R.layout.fragment_classic_player
         linearLayoutManager.scrollToPositionWithOffset(MusicPlayerRemote.position + 1, 0)
     }
 
-    private fun getQueuePanel(): RetroBottomSheetBehavior<MaterialCardView> {
-        return RetroBottomSheetBehavior.from(playerQueueSheet) as RetroBottomSheetBehavior<MaterialCardView>
+    private fun getQueuePanel(): MusikoBottomSheetBehavior<MaterialCardView> {
+        return MusikoBottomSheetBehavior.from(playerQueueSheet) as MusikoBottomSheetBehavior<MaterialCardView>
     }
 
     private fun setupPanel() {

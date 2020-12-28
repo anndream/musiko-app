@@ -20,7 +20,7 @@ import app.musiko.service.MusicService
 import app.musiko.service.MusicService.*
 import app.musiko.util.ImageUtil
 import app.musiko.util.PreferenceUtil
-import app.musiko.util.RetroUtil
+import app.musiko.util.MusikoUtil
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.animation.GlideAnimation
 import com.bumptech.glide.request.target.SimpleTarget
@@ -41,7 +41,7 @@ class AppWidgetCard : BaseAppWidget() {
         val secondaryColor = MaterialValueHelper.getSecondaryTextColor(context, true)
         appWidgetView.setImageViewBitmap(
             R.id.button_next, createBitmap(
-                RetroUtil.getTintedVectorDrawable(
+                MusikoUtil.getTintedVectorDrawable(
                     context,
                     R.drawable.ic_skip_next,
                     secondaryColor
@@ -50,7 +50,7 @@ class AppWidgetCard : BaseAppWidget() {
         )
         appWidgetView.setImageViewBitmap(
             R.id.button_prev, createBitmap(
-                RetroUtil.getTintedVectorDrawable(
+                MusikoUtil.getTintedVectorDrawable(
                     context,
                     R.drawable.ic_skip_previous,
                     secondaryColor
@@ -59,7 +59,7 @@ class AppWidgetCard : BaseAppWidget() {
         )
         appWidgetView.setImageViewBitmap(
             R.id.button_toggle_play_pause, createBitmap(
-                RetroUtil.getTintedVectorDrawable(
+                MusikoUtil.getTintedVectorDrawable(
                     context,
                     R.drawable.ic_play_arrow_white_32dp,
                     secondaryColor
@@ -94,7 +94,7 @@ class AppWidgetCard : BaseAppWidget() {
             if (isPlaying) R.drawable.ic_pause else R.drawable.ic_play_arrow_white_32dp
         appWidgetView.setImageViewBitmap(
             R.id.button_toggle_play_pause, createBitmap(
-                RetroUtil.getTintedVectorDrawable(
+                MusikoUtil.getTintedVectorDrawable(
                     service,
                     playPauseRes,
                     MaterialValueHelper.getSecondaryTextColor(service, true)
@@ -105,7 +105,7 @@ class AppWidgetCard : BaseAppWidget() {
         // Set prev/next button drawables
         appWidgetView.setImageViewBitmap(
             R.id.button_next, createBitmap(
-                RetroUtil.getTintedVectorDrawable(
+                MusikoUtil.getTintedVectorDrawable(
                     service,
                     R.drawable.ic_skip_next,
                     MaterialValueHelper.getSecondaryTextColor(service, true)
@@ -114,7 +114,7 @@ class AppWidgetCard : BaseAppWidget() {
         )
         appWidgetView.setImageViewBitmap(
             R.id.button_prev, createBitmap(
-                RetroUtil.getTintedVectorDrawable(
+                MusikoUtil.getTintedVectorDrawable(
                     service,
                     R.drawable.ic_skip_previous,
                     MaterialValueHelper.getSecondaryTextColor(service, true)

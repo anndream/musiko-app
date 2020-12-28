@@ -13,7 +13,7 @@ import app.musiko.R
 import app.musiko.activities.base.AbsMusicServiceActivity
 import app.musiko.interfaces.IMusicServiceEventListener
 import app.musiko.model.Song
-import app.musiko.util.RetroUtil
+import app.musiko.util.MusikoUtil
 import java.io.File
 import java.net.URLEncoder
 import java.util.*
@@ -30,10 +30,10 @@ open class AbsMusicServiceFragment(@LayoutRes layout: Int) : Fragment(layout),
         navOptions {
             launchSingleTop = false
             anim {
-                enter = R.anim.retro_fragment_open_enter
-                exit = R.anim.retro_fragment_open_exit
-                popEnter = R.anim.retro_fragment_close_enter
-                popExit = R.anim.retro_fragment_close_exit
+                enter = R.anim.musiko_fragment_open_enter
+                exit = R.anim.musiko_fragment_open_exit
+                popEnter = R.anim.musiko_fragment_close_enter
+                popExit = R.anim.musiko_fragment_close_exit
             }
         }
     }
@@ -98,7 +98,7 @@ open class AbsMusicServiceFragment(@LayoutRes layout: Int) : Fragment(layout),
                 val uriFile = Uri.fromFile(file)
                 string.append(getMimeType(uriFile.toString())).append(" • ")
                 string.append(audioHeader.bitRate).append(" kb/s").append(" • ")
-                string.append(RetroUtil.frequencyCount(audioHeader.sampleRate.toInt()))
+                string.append(MusikoUtil.frequencyCount(audioHeader.sampleRate.toInt()))
                     .append(" kHz")
                 string.toString()
             } catch (er: Exception) {

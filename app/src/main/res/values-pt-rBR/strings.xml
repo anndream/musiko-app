@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources>
     <string name="about_album_label">About %s</string>
-    <string name="about_settings_summary">Time, links sociais</string>
+    <string name="about_settings_summary">Mantenedor, links sociais</string>
 
     <string name="accent_color">Cor de destaque</string>
     <string name="accent_color_desc">A cor de destaque do tema, o padrão é verde</string>
@@ -127,7 +127,8 @@
 
     <string name="cascading">Cascata</string>
 
-  
+    <string name="changelog">Lista de mudanças</string>
+    <string name="changelog_summary">Veja os logs de mudanças do app</string>
 
     <string name="circle">Círculo</string>
 
@@ -156,7 +157,7 @@
 
     <string name="created_playlist_x">A playlist %1$s foi criada</string>
 
-    <string name="credit_title">Mantedor</string>
+    <string name="credit_title">Mantenedor</string>
 
     <string name="currently_listening_to_x_by_x">Atualmente ouvindo %1$s por %2$s.</string>
 
@@ -224,7 +225,7 @@
 
     <string name="genres">Gêneros</string>
 
-    <string name="git_hub_summary">Fork o projeto no GitHub</string>
+    <string name="git_hub_summary">Veja mais informações sobre o app no site</string>
 
     <string name="grid_size_1">1</string>
     <string name="grid_size_2">2</string>
@@ -339,7 +340,7 @@
 
     <string name="past_three_months">Últimos 3 meses</string>
 
-    <string name="peak">Peak</string>
+    <string name="peak">Pico</string>
 
     <string name="permission_external_storage_denied">Permissão para acessar o armazenamento externo negada</string>
 
@@ -350,6 +351,8 @@
 
     <string name="pick_from_local_storage">Escolha do armazenamento local</string>
 
+    <string name="pinterest_page">Pinterest</string>
+    <string name="pinterest_page_summary">Siga a página do Pinterest para inspiração de design do Musiko</string>
 
     <string name="plain">Liso</string>
 
@@ -391,7 +394,7 @@
     <string name="pref_summary_colored_app_shortcuts">Colore os atalhos do aplicativo na cor de destaque. Toda vez que você mudar a cor alterne essa opção para ter efeito</string>
     <string name="pref_summary_colored_notification">"Colore a notifica\u00e7\u00e3o na cor vibrante da capa do \u00e1lbum"</string>
     <string name="pref_summary_desaturated_color">Conforme o guia do Material Design as cores devem ser dessaturadas no modo escuro</string>
-    <string name="pref_summary_expand_now_playing_panel">Clicking on the notification will show now playing screen instead of the home screen</string>
+    <string name="pref_summary_expand_now_playing_panel">Clicar na notificação irá mostrar a tela de reprodução em vez da tela inicial</string>
     <string name="pref_summary_extra_controls">Adicionar botões extras para o mini reprodutor</string>
     <string name="pref_summary_extra_song_info">Mostrar informações extras da música, como formato de arquivo, taxa de bits e frequência</string>
     <string name="pref_summary_gapless_playback">"Pode causar problemas de reprodução em alguns dispositivos"</string>
@@ -417,7 +420,7 @@
     <string name="pref_title_colored_app">Cor adaptável</string>
     <string name="pref_title_colored_notification">Notificações coloridas</string>
     <string name="pref_title_desaturated_color">Cor dessaturada</string>
-    <string name="pref_title_expand_now_playing_panel">Show now playing screen</string>
+    <string name="pref_title_expand_now_playing_panel">Mostrar tela de reprodução agora</string>
     <string name="pref_title_extra_controls">Controles extras</string>
     <string name="pref_title_extra_song_info">Informações da música</string>
     <string name="pref_title_gapless_playback">Reprodução contínua</string>
@@ -474,8 +477,8 @@
 
     <string name="restoring_purchase">Restaurando compra...</string>
 
-    <string name="retro_music_player">Musiko Player</string>
-    <string name="retro_music_pro">Musiko Pro</string>
+    <string name="musiko_app_player">Musiko Player</string>
+    <string name="musiko_app_pro">Musiko Pro</string>
 
     <string name="saf_delete_failed">Falha ao excluir arquivo: %s</string>
     <!-- SAF -->
@@ -514,7 +517,7 @@
     <string name="set_artist_image">Definir imagem do artista</string>
 
     <string name="share_app">Compartilhar o aplicativo</string>
-    <string name="share_to_stories">Share to Stories</string>
+    <string name="share_to_stories">Compartilhar nos Stories</string>
 
     <string name="shuffle">Aleatório</string>
 
@@ -524,7 +527,7 @@
     <string name="sleep_timer_set">Temporizador definido para %d minutos a partir de agora</string>
 
     <string name="social">Social</string>
-    <string name="social_stories">Share story</string>
+    <string name="social_stories">Compartilhar story</string>
 
     <string name="song">Música</string>
     <string name="song_duration">Duração da música</string>
@@ -569,7 +572,7 @@
     <string name="this_year">Este ano</string>
 
     <string name="tiny">Minúsculo</string>
-    <string name="tiny_card_style">Tiny card</string>
+    <string name="tiny_card_style">Cartão minúsculo</string>
 
     <string name="title">Título</string>
 
@@ -584,7 +587,7 @@
     <string name="translate">Traduzir</string>
     <string name="translate_community">Ajude-nos a traduzir o aplicativo para seu idioma</string>
 
-    <string name="try_retro_music_premium">Try Musiko Premium</string>
+    <string name="try_musiko_app_premium">Experimente Musiko Premium</string>
 
     <string name="twitter_page">Twitter </string>
     <string name="twitter_page_summary">Compartilhe seu design com o Musiko</string>
@@ -627,4 +630,25 @@
     <string name="you_will_be_forwarded_to_the_issue_tracker_website">Você será encaminhado para o website do rastreador de problemas.</string>
 
     <string name="your_account_data_is_only_used_for_authentication">Os dados da sua conta são usados ​​apenas para autenticação.</string>
+    <string name="card_square">Cartão Quadrado</string>
+    <string name="done">Pronto</string>
+    <string name="gradient">Gradiente</string>
+    <string name="help_summary">Precisa de mais ajuda?</string>
+    <string name="import_label">Importar</string>
+    <string name="import_playlist">Importar lista de reprodução</string>
+    <string name="import_playlist_message">Ele importa todas as listas de reprodução listadas na Android Media Store com músicas; se as listas de reprodução já existirem, as músicas serão mescladas.</string>
+    <string name="not_recently_played">Nada tocado recentemente</string>
+    <string name="permission_summary">O aplicativo precisa de permissão para acessar o armazenamento do dispositivo para reproduzir música</string>
+    <string name="permission_title">Acesso ao armazenamento</string>
+    <string name="pref_summary_album_artists_only">Mostrar artistas do álbum na categoria Artista</string>
+    <string name="pref_title_album_artists_only">Navegar por artista do álbum</string>
+    <string name="pref_title_home_album_grid_style">Grade do álbum</string>
+    <string name="ringtone_summary">O aplicativo precisa de permissão para acessar as configurações do seu dispositivo, a fim de definir a música como toque</string>
+    <string name="ringtone_title">Toque</string>
+    <string name="share_summary">Compartilhe o aplicativo com seus amigos e familiares</string>
+    <string name="sort_order_num_songs">Contagem das músicas</string>
+    <string name="sort_order_num_songs_desc">Desc da Contagem das músicas</string>
+    <string name="user_name">Editar usuário</string>
+    <string name="default_hint">Sem letras</string>
+    <string name="start_payment">Iniciar o pagamento</string>
 </resources>

@@ -24,7 +24,7 @@ import app.musiko.extensions.accentColor
 import app.musiko.model.ArtworkInfo
 import app.musiko.model.LoadingInfo
 import app.musiko.repository.Repository
-import app.musiko.util.RetroUtil
+import app.musiko.util.MusikoUtil
 import app.musiko.util.SAFUtil
 import com.google.android.material.button.MaterialButton
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
@@ -316,7 +316,7 @@ abstract class AbsTagEditorActivity : AbsBaseActivity() {
         fieldKeyValueMap: Map<FieldKey, String>,
         artworkInfo: ArtworkInfo?
     ) {
-        RetroUtil.hideSoftKeyboard(this)
+        MusikoUtil.hideSoftKeyboard(this)
 
         hideFab()
         println(fieldKeyValueMap)

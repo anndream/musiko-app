@@ -1,16 +1,4 @@
-/*
- * Copyright (c) 2019 Hemanth Savarala.
- *
- * Licensed under the GNU General Public License v3
- *
- * This is free software: you can redistribute it and/or modify it under
- * the terms of the GNU General Public License as published by
- *  the Free Software Foundation either version 3 of the License, or (at your option) any later version.
- *
- * This software is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
- * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
- * See the GNU General Public License for more details.
- */
+
 
 package app.musiko.util;
 
@@ -44,7 +32,7 @@ import app.musiko.appthemehelper.util.TintHelper;
 import app.musiko.App;
 import java.text.DecimalFormat;
 
-public class RetroUtil {
+public class MusikoUtil {
 
   private static final int[] TEMP_ARRAY = new int[1];
 

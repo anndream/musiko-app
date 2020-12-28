@@ -18,6 +18,8 @@ import app.musiko.fragments.LibraryViewModel
 import app.musiko.util.NavigationUtil
 import kotlinx.android.synthetic.main.card_credit.*
 import kotlinx.android.synthetic.main.card_other.*
+import kotlinx.android.synthetic.main.card_musiko_info.*
+import kotlinx.android.synthetic.main.card_social.*
 import org.koin.androidx.viewmodel.ext.android.sharedViewModel
 
 class AboutFragment : Fragment(R.layout.fragment_about), View.OnClickListener {
@@ -38,12 +40,36 @@ class AboutFragment : Fragment(R.layout.fragment_about), View.OnClickListener {
     }
 
     private fun setUpView() {
+        appSite.setOnClickListener(this)
+        faqLink.setOnClickListener(this)
+        telegramLink.setOnClickListener(this)
+        appRate.setOnClickListener(this)
+        appTranslation.setOnClickListener(this)
+        appShare.setOnClickListener(this)
+        donateLink.setOnClickListener(this)
+        instagramLink.setOnClickListener(this)
+        twitterLink.setOnClickListener(this)
+        changelog.setOnClickListener(this)
         openSource.setOnClickListener(this)
+        pinterestLink.setOnClickListener(this)
+        bugReportLink.setOnClickListener(this)
     }
 
     override fun onClick(view: View) {
         when (view.id) {
+            R.id.pinterestLink -> openUrl(Constants.PINTEREST)
+            R.id.faqLink -> openUrl(Constants.FAQ_LINK)
+            R.id.telegramLink -> openUrl(Constants.APP_TELEGRAM_LINK)
+            R.id.appSite -> openUrl(Constants.SITE_PROJECT)
+            R.id.appTranslation -> openUrl(Constants.TRANSLATE)
+            R.id.appRate -> openUrl(Constants.RATE_ON_GOOGLE_PLAY)
+            R.id.appShare -> shareApp()
+            R.id.donateLink -> NavigationUtil.goToSupportDevelopment(requireActivity())
+            R.id.instagramLink -> openUrl(Constants.APP_INSTAGRAM_LINK)
+            R.id.twitterLink -> openUrl(Constants.APP_TWITTER_LINK)
+            R.id.changelog -> openUrl(Constants.APP_CHANGE_LOG)
             R.id.openSource -> NavigationUtil.goToOpenSource(requireActivity())
+            R.id.bugReportLink -> NavigationUtil.bugReport(requireActivity())
         }
     }
 

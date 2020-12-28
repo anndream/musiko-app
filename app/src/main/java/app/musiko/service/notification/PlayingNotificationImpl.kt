@@ -1,16 +1,4 @@
-/*
- * Copyright (c) 2019 Hemanth Savarala.
- *
- * Licensed under the GNU General Public License v3
- *
- * This is free software: you can redistribute it and/or modify it under
- * the terms of the GNU General Public License as published by
- *  the Free Software Foundation either version 3 of the License, or (at your option) any later version.
- *
- * This software is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
- * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
- * See the GNU General Public License for more details.
- */
+
 
 package app.musiko.service.notification
 
@@ -35,7 +23,7 @@ import app.musiko.service.MusicService
 import app.musiko.service.MusicService.*
 import app.musiko.util.MusicUtil
 import app.musiko.util.PreferenceUtil
-import app.musiko.util.RetroColorUtil
+import app.musiko.util.MusikoColorUtil
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.animation.GlideAnimation
 import com.bumptech.glide.request.target.SimpleTarget
@@ -95,7 +83,7 @@ class PlayingNotificationImpl : PlayingNotification(), KoinComponent {
                         ) {
                             update(
                                 resource.bitmap,
-                                RetroColorUtil.getColor(resource.palette, Color.TRANSPARENT)
+                                MusikoColorUtil.getColor(resource.palette, Color.TRANSPARENT)
                             )
                         }
 

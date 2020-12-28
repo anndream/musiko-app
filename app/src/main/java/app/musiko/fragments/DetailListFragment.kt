@@ -23,7 +23,7 @@ import app.musiko.interfaces.IAlbumClickListener
 import app.musiko.interfaces.IArtistClickListener
 import app.musiko.model.Album
 import app.musiko.model.Artist
-import app.musiko.util.RetroUtil
+import app.musiko.util.MusikoUtil
 import kotlinx.android.synthetic.main.fragment_playlist_detail.*
 
 class DetailListFragment : AbsMainActivityFragment(R.layout.fragment_playlist_detail),
@@ -162,8 +162,8 @@ class DetailListFragment : AbsMainActivityFragment(R.layout.fragment_playlist_de
         GridLayoutManager(requireContext(), gridCount(), GridLayoutManager.VERTICAL, false)
 
     private fun gridCount(): Int {
-        if (RetroUtil.isTablet()) {
-            return if (RetroUtil.isLandscape()) 6 else 4
+        if (MusikoUtil.isTablet()) {
+            return if (MusikoUtil.isLandscape()) 6 else 4
         }
         return 2
     }

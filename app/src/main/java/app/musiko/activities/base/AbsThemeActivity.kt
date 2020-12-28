@@ -20,7 +20,7 @@ import app.musiko.appthemehelper.util.VersionUtils
 import app.musiko.LanguageContextWrapper
 import app.musiko.R
 import app.musiko.util.PreferenceUtil
-import app.musiko.util.RetroUtil
+import app.musiko.util.MusikoUtil
 import app.musiko.util.theme.ThemeManager
 import java.util.*
 
@@ -74,11 +74,11 @@ abstract class AbsThemeActivity : ATHToolbarActivity(), Runnable {
     }
 
     fun setDrawUnderStatusBar() {
-        RetroUtil.setAllowDrawUnderStatusBar(window)
+        MusikoUtil.setAllowDrawUnderStatusBar(window)
     }
 
     fun setDrawUnderNavigationBar() {
-        RetroUtil.setAllowDrawUnderNavigationBar(window)
+        MusikoUtil.setAllowDrawUnderNavigationBar(window)
     }
 
     /**

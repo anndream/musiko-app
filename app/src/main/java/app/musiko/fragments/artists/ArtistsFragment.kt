@@ -18,8 +18,8 @@ import app.musiko.helper.SortOrder.ArtistSortOrder
 import app.musiko.interfaces.IArtistClickListener
 import app.musiko.interfaces.ICabHolder
 import app.musiko.util.PreferenceUtil
-import app.musiko.util.RetroColorUtil
-import app.musiko.util.RetroUtil
+import app.musiko.util.MusikoColorUtil
+import app.musiko.util.MusikoUtil
 import com.afollestad.materialcab.MaterialCab
 import com.google.android.material.transition.MaterialElevationScale
 
@@ -119,7 +119,7 @@ class ArtistsFragment : AbsRecyclerViewCustomGridSizeFragment<ArtistAdapter, Gri
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
         super.onCreateOptionsMenu(menu, inflater)
         val gridSizeItem: MenuItem = menu.findItem(R.id.action_grid_size)
-        if (RetroUtil.isLandscape()) {
+        if (MusikoUtil.isLandscape()) {
             gridSizeItem.setTitle(R.string.action_grid_size_land)
         }
         setUpGridSizeMenu(gridSizeItem.subMenu)
@@ -281,7 +281,7 @@ class ArtistsFragment : AbsRecyclerViewCustomGridSizeFragment<ArtistAdapter, Gri
         cab = MaterialCab(mainActivity, R.id.cab_stub)
             .setMenu(menuRes)
             .setCloseDrawableRes(R.drawable.ic_close)
-            .setBackgroundColor(RetroColorUtil.shiftBackgroundColorForLightText(surfaceColor()))
+            .setBackgroundColor(MusikoColorUtil.shiftBackgroundColorForLightText(surfaceColor()))
             .start(callback)
         return cab as MaterialCab
     }

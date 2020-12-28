@@ -76,7 +76,7 @@
                 android:gravity="center_vertical"
                 android:orientation="horizontal">
 
-                <app.musiko.views.RetroShapeableImageView
+                <app.musiko.views.MusikoShapeableImageView
                     android:id="@+id/artistImage"
                     android:layout_width="52dp"
                     android:layout_height="52dp"

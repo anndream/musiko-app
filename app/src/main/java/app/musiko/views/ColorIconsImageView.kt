@@ -1,16 +1,4 @@
-/*
- * Copyright (c) 2019 Hemanth Savarala.
- *
- * Licensed under the GNU General Public License v3
- *
- * This is free software: you can redistribute it and/or modify it under
- * the terms of the GNU General Public License as published by
- *  the Free Software Foundation either version 3 of the License, or (at your option) any later version.
- *
- * This software is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
- * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
- * See the GNU General Public License for more details.
- */
+
 
 package app.musiko.views
 
@@ -24,7 +12,7 @@ import app.musiko.appthemehelper.util.ATHUtil
 import app.musiko.appthemehelper.util.ColorUtil
 import app.musiko.R
 import app.musiko.util.PreferenceUtil
-import app.musiko.util.RetroColorUtil
+import app.musiko.util.MusikoColorUtil
 
 
 class ColorIconsImageView @JvmOverloads constructor(
@@ -47,7 +35,7 @@ class ColorIconsImageView @JvmOverloads constructor(
     fun setIconBackgroundColor(color: Int) {
         background = ContextCompat.getDrawable(context, R.drawable.color_circle_gradient)
         if (ATHUtil.isWindowBackgroundDark(context) && PreferenceUtil.isDesaturatedColor) {
-            val desaturatedColor = RetroColorUtil.desaturateColor(color, 0.4f)
+            val desaturatedColor = MusikoColorUtil.desaturateColor(color, 0.4f)
             backgroundTintList = ColorStateList.valueOf(desaturatedColor)
             imageTintList =
                 ColorStateList.valueOf(ATHUtil.resolveColor(context, R.attr.colorSurface))

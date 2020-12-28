@@ -22,8 +22,8 @@ import app.musiko.glide.palette.BitmapPaletteWrapper
 import app.musiko.model.ArtworkInfo
 import app.musiko.model.Song
 import app.musiko.util.ImageUtil
-import app.musiko.util.RetroColorUtil.generatePalette
-import app.musiko.util.RetroColorUtil.getColor
+import app.musiko.util.MusikoColorUtil.generatePalette
+import app.musiko.util.MusikoColorUtil.getColor
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.bumptech.glide.request.animation.GlideAnimation

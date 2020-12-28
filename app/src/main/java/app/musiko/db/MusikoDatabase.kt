@@ -9,7 +9,7 @@ import androidx.room.RoomDatabase
     version = 23,
     exportSchema = false
 )
-abstract class RetroDatabase : RoomDatabase() {
+abstract class MusikoDatabase : RoomDatabase() {
     abstract fun playlistDao(): PlaylistDao
     abstract fun blackListStore(): BlackListStoreDao
     abstract fun playCountDao(): PlayCountDao

@@ -62,7 +62,7 @@ public class WhatsNewActivity extends AbsBaseActivity {
 
     try {
       StringBuilder buf = new StringBuilder();
-      InputStream json = getAssets().open("retro-changelog.html");
+      InputStream json = getAssets().open("musiko-changelog.html");
       BufferedReader in = new BufferedReader(new InputStreamReader(json, StandardCharsets.UTF_8));
       String str;
       while ((str = in.readLine()) != null) {
