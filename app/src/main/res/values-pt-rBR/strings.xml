@@ -394,7 +394,7 @@
     <string name="pref_summary_colored_app_shortcuts">Colore os atalhos do aplicativo na cor de destaque. Toda vez que você mudar a cor alterne essa opção para ter efeito</string>
     <string name="pref_summary_colored_notification">"Colore a notifica\u00e7\u00e3o na cor vibrante da capa do \u00e1lbum"</string>
     <string name="pref_summary_desaturated_color">Conforme o guia do Material Design as cores devem ser dessaturadas no modo escuro</string>
-    <string name="pref_summary_expand_now_playing_panel">Clicking on the notification will show now playing screen instead of the home screen</string>
+    <string name="pref_summary_expand_now_playing_panel">Clicar na notificação irá mostrar a tela de reprodução em vez da tela inicial</string>
     <string name="pref_summary_extra_controls">Adicionar botões extras para o mini reprodutor</string>
     <string name="pref_summary_extra_song_info">Mostrar informações extras da música, como formato de arquivo, taxa de bits e frequência</string>
     <string name="pref_summary_gapless_playback">"Pode causar problemas de reprodução em alguns dispositivos"</string>
@@ -420,7 +420,7 @@
     <string name="pref_title_colored_app">Cor adaptável</string>
     <string name="pref_title_colored_notification">Notificações coloridas</string>
     <string name="pref_title_desaturated_color">Cor dessaturada</string>
-    <string name="pref_title_expand_now_playing_panel">Show now playing screen</string>
+    <string name="pref_title_expand_now_playing_panel">Mostrar tela de reprodução agora</string>
     <string name="pref_title_extra_controls">Controles extras</string>
     <string name="pref_title_extra_song_info">Informações da música</string>
     <string name="pref_title_gapless_playback">Reprodução contínua</string>
@@ -648,5 +648,7 @@
     <string name="share_summary">Compartilhe o aplicativo com seus amigos e familiares</string>
     <string name="sort_order_num_songs">Contagem das músicas</string>
     <string name="sort_order_num_songs_desc">Desc da Contagem das músicas</string>
-    <string name="user_name">Nome do usuário</string>
+    <string name="user_name">Editar usuário</string>
+    <string name="default_hint">Sem letras</string>
+    <string name="start_payment">Iniciar o pagamento</string>
 </resources>
