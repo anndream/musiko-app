@@ -6,10 +6,6 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://github.com/hebertcisco/musiko-app/blob/master/LICENSE.txt)
 [![Twitter Follow](https://img.shields.io/twitter/follow/MusikoApp?style=social)](https://twitter.com/MusikoApp)
 
-> #### [Download APK lasted](https://github.com/hebertcisco/musiko-app/releases/)
-
-<a style="width:75px;" href='https://play.google.com/store/apps/details?id=app.musiko&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img style="width:75px;" alt='Get it on Google Play'  src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a>
-
 Free music player for Android
 
 ## User Stories
@@ -62,6 +58,10 @@ Aim your QR code reader at the QRcode to download the application.
 
 Musiko Music Player is released under the GNU General Public License v3.0
 (GPLv3), which can be found [here](LICENSE.md)
+
+> #### [Download APK lasted](https://github.com/hebertcisco/musiko-app/releases/)
+
+<a style="width:75px;" href='https://play.google.com/store/apps/details?id=app.musiko&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img style="width:75px;" alt='Get it on Google Play'  src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a>
 
 
 >Please note: Musiko Music Player is an offline music player app. It
