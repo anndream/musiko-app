@@ -8,6 +8,8 @@
 
 > #### [Download APK lasted](https://github.com/hebertcisco/musiko-app/releases/)
 
+<a  href='https://play.google.com/store/apps/details?id=app.musiko&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img style='heigth: 7px' alt='Get it on Google Play'  src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a>
+
 Free music player for Android
 
 ## User Stories
