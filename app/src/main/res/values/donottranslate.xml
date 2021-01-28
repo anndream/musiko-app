@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="donation_ids" translatable="false">
-        <item>app_musiko_donate_1</item>
-        <item>app_musiko_donate_2</item>
-        <item>app_musiko_donate_3</item>
-        <item>app_musiko_donate_4</item>
-        <item>app_musiko_donate_5</item>
-        <item>app_musiko_donate_6</item>
+        <item>app_musiko_product_1</item>
+        <item>app_musiko_product_2</item>
+        <item>app_musiko_product_3</item>
+        <item>app_musiko_product_4</item>
+        <item>app_musiko_product_5</item>
+        <item>app_musiko_product_6</item>
         <item>app_musiko_donate_7</item>
 
     </string-array>
