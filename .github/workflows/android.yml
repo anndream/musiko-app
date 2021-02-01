@@ -5,9 +5,11 @@ on:
   pull_request:
     branches:
       - 'master'
+      - 'developer'
   push:
     branches:
       - 'master'
+      - 'developer'
 
 jobs:
   apk:
