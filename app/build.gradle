@@ -16,8 +16,8 @@ android {
         vectorDrawables.useSupportLibrary = true
 
         applicationId "app.musiko"
-        versionCode 157
-        versionName '0.0.6' + "_" + getDate()
+        versionCode 158
+        versionName '0.0.7' + "_" + getDate()
 
         multiDexEnabled true
 
