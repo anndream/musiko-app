@@ -23,25 +23,34 @@
 
   <p align="center">
 
-<a href="https://github.com/hebertcisco/musiko-app/issues/new/choose">Report Bug</a>
+ <a href="https://github.com/hebertcisco/musiko-app/issues/new/choose">Report Bug</a>
 ·
-<a href="https://github.com/hebertcisco/musiko-app/issues/new/choose">Request Feature</a>
-
-  </p>
-  <p align="center">
+ <a href="https://github.com/hebertcisco/musiko-app/issues/new/choose">Request Feature</a>
+ <p align="center">
 
 <a href="/docs/readme_pt-BR.md">Português Brasileiro</a>
 
   </p>
+  </p>
+ 
 </p>
 <p align="center">Loved the project? Please consider <a href="https://www.paypal.com/donate?hosted_button_id=AE2U6HAUWQ9LW">donating</a> to help it improve!
 
-[![Generic badge](https://img.shields.io/badge/Platform-Android-green.svg)](https://github.com/hebertcisco/musiko-app)
-[![Generic badge](https://img.shields.io/badge/minSdkVersion-21-green.svg)](https://github.com/hebertcisco/musiko-app)
-[![Generic badge](https://img.shields.io/badge/Download-Google_Play-green.svg)](https://play.google.com/store/apps/details?id=app.musiko&hl=en_IN)
-[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://github.com/hebertcisco/musiko-app/blob/master/LICENSE.txt)
-[![Twitter Follow](https://img.shields.io/twitter/follow/MusikoApp?style=social)](https://twitter.com/MusikoApp)
+<p align="center">
+  <a href="https://github.com/hebertcisco/musiko-app">
+      <img alt="Generic badge" src="https://img.shields.io/badge/Platform-Android-green.svg" />
+    </a>
+  <a href="https://github.com/hebertcisco/musiko-app">
+      <img alt="Generic badge" src="https://img.shields.io/badge/minSdkVersion-21-green.svg" />
+    </a> <a href="https://play.google.com/store/apps/details?id=app.musiko&hl=en_IN">
+      <img alt="Generic badge" src="https://img.shields.io/badge/Download-Google_Play-green.svg" />
+   
+   </a> 
+   <a href="https://twitter.com/MusikoApp">
+      <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/MusikoApp?style=social" />
+    </a>
 
+</p>
 ## User Stories
 
 - [x] Base 3 themes (Clearly White, Kinda Dark and Just Black)
