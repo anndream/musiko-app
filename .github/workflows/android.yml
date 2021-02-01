@@ -5,11 +5,9 @@ on:
   pull_request:
     branches:
       - 'master'
-      - 'developer'
   push:
     branches:
       - 'master'
-      - 'developer'
 
 jobs:
   apk:
@@ -29,20 +27,3 @@ jobs:
         with:
           name: app
           path: app/build/outputs/apk/debug/app-debug.apk
-  signed:
-    name: Generate signed APK
-    runs-on: ubuntu-18.04
-    
-    steps:
-      - uses: r0adkll/sign-android-release@v1
-      - name: Sign app APK
-        id: sign_app
-        with:
-          releaseDirectory: app/build/outputs/apk/release
-          signingKeyBase64: ${{ secrets.SIGNING_KEY }}
-          keyStorePassword: ${{ secrets.KEY_STORE_PASSWORD }}
-          keyPassword: ${{ secrets.KEY_PASSWORD }}
-      - uses: actions/upload-artifact@v1
-        with:
-          name: app
-          path: app/build/outputs/apk/release/app-release.apk
