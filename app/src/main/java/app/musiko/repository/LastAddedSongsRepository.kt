@@ -9,9 +9,7 @@ import app.musiko.model.Artist
 import app.musiko.model.Song
 import app.musiko.util.PreferenceUtil
 
-/**
- * Created by hemanths on 16/08/17.
- */
+
 interface LastAddedRepository {
     fun recentSongs(): List<Song>
 

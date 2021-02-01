@@ -14,9 +14,7 @@ import app.musiko.model.Song
 import app.musiko.util.color.MediaNotificationProcessor
 import kotlinx.android.synthetic.main.fragment_simple_player.*
 
-/**
- * @author Hemanth S (h4h13).
- */
+
 
 class SimplePlayerFragment : AbsPlayerFragment(R.layout.fragment_simple_player) {
 

@@ -8,7 +8,7 @@ import android.content.SharedPreferences;
 import androidx.annotation.NonNull;
 import com.bumptech.glide.signature.StringSignature;
 
-/** @author Karim Abou Zeid (kabouzeid) */
+
 public class ArtistSignatureUtil {
   private static final String ARTIST_SIGNATURE_PREFS = "artist_signatures";
 

@@ -9,7 +9,6 @@ import app.musiko.R;
 import com.heinrichreimersoftware.materialintro.app.IntroActivity;
 import com.heinrichreimersoftware.materialintro.slide.SimpleSlide;
 
-/** Created by hemanths on 2019-07-31. */
 public class SAFGuideActivity extends IntroActivity {
 
   public static final int REQUEST_CODE_SAF_GUIDE = 98;

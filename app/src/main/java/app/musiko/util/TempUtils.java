@@ -2,7 +2,7 @@
 
 package app.musiko.util;
 
-/** @author Hemanth S (h4h13). */
+
 public class TempUtils {
 
   // Enums

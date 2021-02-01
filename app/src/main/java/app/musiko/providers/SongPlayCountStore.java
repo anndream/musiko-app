@@ -12,10 +12,7 @@ import android.view.animation.Interpolator;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-/**
- * This database tracks the number of play counts for an individual song. This is used to drive the
- * top played tracks as well as the playlist images
- */
+
 public class SongPlayCountStore extends SQLiteOpenHelper {
   public static final String DATABASE_NAME = "song_play_count.db";
   private static final int VERSION = 3;

@@ -37,9 +37,7 @@ import kotlinx.android.synthetic.main.fragment_plain_controls_fragment.shuffleBu
 import kotlinx.android.synthetic.main.fragment_plain_controls_fragment.songCurrentProgress
 import kotlinx.android.synthetic.main.fragment_plain_controls_fragment.songTotalTime
 
-/**
- * @author Hemanth S (h4h13).
- */
+
 
 class PlainPlaybackControlsFragment :
     AbsPlayerControlsFragment(R.layout.fragment_plain_controls_fragment) {

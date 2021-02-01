@@ -27,10 +27,7 @@ import com.bumptech.glide.request.target.Target
 class AppWidgetBig : BaseAppWidget() {
     private var target: Target<Bitmap>? = null // for cancellation
 
-    /**
-     * Initialize given widgets to default state, where we launch Music on default click and hide
-     * actions if service not running.
-     */
+
     override fun defaultAppWidget(context: Context, appWidgetIds: IntArray) {
         val appWidgetView = RemoteViews(
             context.packageName, R.layout.app_widget_big
@@ -73,9 +70,7 @@ class AppWidgetBig : BaseAppWidget() {
         pushUpdate(context, appWidgetIds, appWidgetView)
     }
 
-    /**
-     * Update all active widget instances by pushing changes
-     */
+
     override fun performUpdate(service: MusicService, appWidgetIds: IntArray?) {
         val appWidgetView = RemoteViews(
             service.packageName, R.layout.app_widget_big

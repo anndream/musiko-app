@@ -11,9 +11,7 @@ import java.util.*
 import kotlin.collections.ArrayList
 
 
-/**
- * Created by hemanths on 11/08/17.
- */
+
 interface AlbumRepository {
     fun albums(): List<Album>
 

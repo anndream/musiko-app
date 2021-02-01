@@ -29,10 +29,6 @@ import com.bumptech.glide.request.target.Target
 class AppWidgetCard : BaseAppWidget() {
     private var target: Target<BitmapPaletteWrapper>? = null // for cancellation
 
-    /**
-     * Initialize given widgets to default state, where we launch Music on default click and hide
-     * actions if service not running.
-     */
     override fun defaultAppWidget(context: Context, appWidgetIds: IntArray) {
         val appWidgetView = RemoteViews(context.packageName, R.layout.app_widget_card)
 

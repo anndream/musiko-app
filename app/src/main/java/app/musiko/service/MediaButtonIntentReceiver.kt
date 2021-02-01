@@ -18,12 +18,6 @@ import app.musiko.BuildConfig
 import app.musiko.service.MusicService.*
 
 
-/**
- * Used to control headset playback.
- * Single press: pause/resume
- * Double press: actionNext track
- * Triple press: previous track
- */
 class MediaButtonIntentReceiver : BroadcastReceiver() {
 
     override fun onReceive(context: Context, intent: Intent) {

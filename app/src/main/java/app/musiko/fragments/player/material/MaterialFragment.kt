@@ -15,9 +15,7 @@ import app.musiko.model.Song
 import app.musiko.util.color.MediaNotificationProcessor
 import kotlinx.android.synthetic.main.fragment_material.*
 
-/**
- * @author Hemanth S (h4h13).
- */
+
 class MaterialFragment : AbsPlayerFragment(R.layout.fragment_material) {
 
     override fun playerToolbar(): Toolbar {

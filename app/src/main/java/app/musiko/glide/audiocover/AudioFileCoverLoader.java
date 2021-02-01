@@ -1,5 +1,3 @@
-
-
 package app.musiko.glide.audiocover;
 
 import android.content.Context;

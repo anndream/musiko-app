@@ -5,10 +5,6 @@ package app.musiko.misc
 import com.google.android.material.appbar.AppBarLayout
 import kotlin.math.abs
 
-/**
- * @author Hemanth S (h4h13).
- * https://stackoverflow.com/a/33891727
- */
 
 abstract class AppBarStateChangeListener : AppBarLayout.OnOffsetChangedListener {
 

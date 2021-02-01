@@ -17,9 +17,7 @@ import com.h6ah4i.android.widget.advrecyclerview.touchguard.RecyclerViewTouchAct
 import com.h6ah4i.android.widget.advrecyclerview.utils.WrapperAdapterUtils
 import kotlinx.android.synthetic.main.activity_playing_queue.*
 
-/**
- * Created by hemanths on 2019-12-08.
- */
+
 class PlayingQueueFragment : AbsRecyclerViewFragment<PlayingQueueAdapter, LinearLayoutManager>() {
 
     private lateinit var wrappedAdapter: RecyclerView.Adapter<*>

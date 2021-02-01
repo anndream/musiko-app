@@ -82,9 +82,7 @@ import static app.musiko.ConstantsKt.COLORED_NOTIFICATION;
 import static app.musiko.ConstantsKt.GAP_LESS_PLAYBACK;
 import static app.musiko.ConstantsKt.TOGGLE_HEADSET;
 
-/**
- * @author Karim Abou Zeid (kabouzeid), Andrew Neal
- */
+
 public class MusicService extends Service
         implements SharedPreferences.OnSharedPreferenceChangeListener, Playback.PlaybackCallbacks {
 
