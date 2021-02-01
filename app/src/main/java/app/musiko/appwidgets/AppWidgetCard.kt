@@ -67,16 +67,14 @@ class AppWidgetCard : BaseAppWidget() {
         pushUpdate(context, appWidgetIds, appWidgetView)
     }
 
-    /**
-     * Update all active widget instances by pushing changes
-     */
+   
     override fun performUpdate(service: MusicService, appWidgetIds: IntArray?) {
         val appWidgetView = RemoteViews(service.packageName, R.layout.app_widget_card)
 
         val isPlaying = service.isPlaying
         val song = service.currentSong
 
-        // Set the titles and artwork
+       
         if (TextUtils.isEmpty(song.title) && TextUtils.isEmpty(song.artistName)) {
             appWidgetView.setViewVisibility(R.id.media_titles, View.INVISIBLE)
         } else {
@@ -85,7 +83,7 @@ class AppWidgetCard : BaseAppWidget() {
             appWidgetView.setTextViewText(R.id.text, getSongArtistAndAlbum(song))
         }
 
-        // Set correct drawable for pause state
+       
         val playPauseRes =
             if (isPlaying) R.drawable.ic_pause else R.drawable.ic_play_arrow_white_32dp
         appWidgetView.setImageViewBitmap(
@@ -98,7 +96,7 @@ class AppWidgetCard : BaseAppWidget() {
             )
         )
 
-        // Set prev/next button drawables
+        
         appWidgetView.setImageViewBitmap(
             R.id.button_next, createBitmap(
                 MusikoUtil.getTintedVectorDrawable(
