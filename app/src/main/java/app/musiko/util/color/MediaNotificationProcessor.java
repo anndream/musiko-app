@@ -1,6 +1,3 @@
-mitations under the License
- */
-
 package app.musiko.util.color;
 
 import static androidx.core.graphics.ColorUtils.RGBToXYZ;
