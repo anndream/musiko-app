@@ -16,14 +16,11 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-/**
- * Desc : 歌词解析 Author : Lauzy Date : 2017/10/13 Blog : http://www.jianshu.com/u/e76853f863a9 Email :
- * freedompaladin@gmail.com
- */
+
 public class LrcHelper {
 
   private static final String CHARSET = "utf-8";
-  // [03:56.00][03:18.00][02:06.00][01:07.00]原谅我这一生不羁放纵爱自由
+
   private static final String LINE_REGEX = "((\\[\\d{2}:\\d{2}\\.\\d{2}])+)(.*)";
   private static final String TIME_REGEX = "\\[(\\d{2}):(\\d{2})\\.(\\d{2})]";
 

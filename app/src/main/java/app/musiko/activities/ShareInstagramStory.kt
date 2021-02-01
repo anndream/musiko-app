@@ -23,9 +23,6 @@ import app.musiko.util.color.MediaNotificationProcessor
 import com.bumptech.glide.Glide
 import kotlinx.android.synthetic.main.activity_share_instagram.*
 
-/**
- * Created by hemanths on 2020-02-02.
- */
 
 class ShareInstagramStory : AbsBaseActivity() {
 

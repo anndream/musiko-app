@@ -5,9 +5,6 @@ import android.provider.MediaStore
 
 class SortOrder {
 
-    /**
-     * Artist sort order entries.
-     */
     interface ArtistSortOrder {
 
         companion object {

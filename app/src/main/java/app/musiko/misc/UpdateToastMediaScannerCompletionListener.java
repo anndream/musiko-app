@@ -13,9 +13,7 @@ import java.util.List;
 
 import app.musiko.R;
 
-/**
- * @author Karim Abou Zeid (kabouzeid)
- */
+
 public class UpdateToastMediaScannerCompletionListener
         implements MediaScannerConnection.OnScanCompletedListener {
 

@@ -20,7 +20,6 @@ import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
 import org.jetbrains.annotations.Nullable;
 
-/** Created by hemanths on 2019-09-27. */
 public class LicenseActivity extends AbsBaseActivity {
 
   @Override

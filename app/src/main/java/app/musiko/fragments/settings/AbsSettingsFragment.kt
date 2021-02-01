@@ -13,10 +13,6 @@ import app.musiko.appthemehelper.common.prefs.supportv7.ATEPreferenceFragmentCom
 import app.musiko.preferences.*
 import app.musiko.util.NavigationUtil
 
-/**
- * @author Hemanth S (h4h13).
- */
-
 abstract class AbsSettingsFragment : ATEPreferenceFragmentCompat() {
 
     internal fun showProToastAndNavigate(message: String) {

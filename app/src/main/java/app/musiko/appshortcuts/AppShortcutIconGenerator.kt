@@ -26,7 +26,7 @@ object AppShortcutIconGenerator {
     }
 
     private fun generateDefaultThemedIcon(context: Context, iconId: Int): Icon {
-        // Return an Icon of iconId with default colors
+
         return generateThemedIcon(
             context,
             iconId,
@@ -36,11 +36,11 @@ object AppShortcutIconGenerator {
     }
 
     private fun generateUserThemedIcon(context: Context, iconId: Int): Icon {
-        // Get background color from context's theme
+
         val typedColorBackground = TypedValue()
         context.theme.resolveAttribute(android.R.attr.colorBackground, typedColorBackground, true)
 
-        // Return an Icon of iconId with those colors
+
         return generateThemedIcon(
             context, iconId, ThemeStore.accentColor(context), typedColorBackground.data
         )
@@ -52,16 +52,16 @@ object AppShortcutIconGenerator {
         foregroundColor: Int,
         backgroundColor: Int
     ): Icon {
-        // Get and tint foreground and background drawables
+
         val vectorDrawable = MusikoUtil.getTintedVectorDrawable(context, iconId, foregroundColor)
         val backgroundDrawable = MusikoUtil.getTintedVectorDrawable(
             context, R.drawable.ic_app_shortcut_background, backgroundColor
         )
 
-        // Squash the two drawables together
+
         val layerDrawable = LayerDrawable(arrayOf(backgroundDrawable, vectorDrawable))
 
-        // Return as an Icon
+
         return Icon.createWithBitmap(drawableToBitmap(layerDrawable))
     }
 

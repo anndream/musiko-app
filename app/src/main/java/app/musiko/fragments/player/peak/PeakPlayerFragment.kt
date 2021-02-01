@@ -16,9 +16,7 @@ import app.musiko.util.PreferenceUtil
 import app.musiko.util.color.MediaNotificationProcessor
 import kotlinx.android.synthetic.main.fragment_peak_player.*
 
-/**
- * Created by hemanths on 2019-10-03.
- */
+
 
 class PeakPlayerFragment : AbsPlayerFragment(R.layout.fragment_peak_player) {
 

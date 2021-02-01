@@ -18,9 +18,7 @@ import app.musiko.model.Playlist
 import app.musiko.model.PlaylistSong
 import app.musiko.model.Song
 
-/**
- * Created by hemanths on 16/08/17.
- */
+
 interface PlaylistRepository {
     fun playlist(cursor: Cursor?): Playlist
 

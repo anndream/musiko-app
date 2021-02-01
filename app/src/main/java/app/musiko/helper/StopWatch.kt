@@ -1,11 +1,6 @@
 
 package app.musiko.helper
 
-/**
- * Simple thread safe stop watch.
- *
- * @author Karim Abou Zeid (kabouzeid)
- */
 class StopWatch {
 
     /**

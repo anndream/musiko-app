@@ -19,9 +19,6 @@ import java.net.URLEncoder
 import java.util.*
 import org.jaudiotagger.audio.AudioFileIO
 
-/**
- * Created by hemanths on 18/08/17.
- */
 
 open class AbsMusicServiceFragment(@LayoutRes layout: Int) : Fragment(layout),
     IMusicServiceEventListener {

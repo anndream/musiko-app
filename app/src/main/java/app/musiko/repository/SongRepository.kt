@@ -18,9 +18,7 @@ import app.musiko.providers.BlacklistStore
 import app.musiko.util.PreferenceUtil
 import java.util.*
 
-/**
- * Created by hemanths on 10/08/17.
- */
+
 interface SongRepository {
 
     fun songs(): List<Song>

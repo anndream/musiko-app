@@ -15,10 +15,7 @@ import app.musiko.model.Song;
 import app.musiko.repository.RealSongRepository;
 import java.util.List;
 
-/**
- * @author Andrew Neal, modified for Phonograph by Karim Abou Zeid
- *     <p>This keeps track of the music playback and history state of the playback service
- */
+
 public class MusicPlaybackQueueStore extends SQLiteOpenHelper {
 
   public static final String DATABASE_NAME = "music_playback_state.db";

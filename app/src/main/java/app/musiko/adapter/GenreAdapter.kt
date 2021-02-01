@@ -13,9 +13,6 @@ import app.musiko.interfaces.IGenreClickListener
 import app.musiko.model.Genre
 import java.util.*
 
-/**
- * @author Hemanth S (h4h13).
- */
 
 class GenreAdapter(
     private val activity: FragmentActivity,

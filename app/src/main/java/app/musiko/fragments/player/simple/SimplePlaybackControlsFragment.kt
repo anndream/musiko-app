@@ -23,9 +23,7 @@ import app.musiko.util.PreferenceUtil
 import app.musiko.util.color.MediaNotificationProcessor
 import kotlinx.android.synthetic.main.fragment_simple_controls_fragment.*
 
-/**
- * @author Hemanth S (h4h13).
- */
+
 
 class SimplePlaybackControlsFragment :
     AbsPlayerControlsFragment(R.layout.fragment_simple_controls_fragment) {
