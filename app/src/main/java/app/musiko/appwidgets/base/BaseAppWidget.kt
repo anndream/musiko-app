@@ -23,9 +23,7 @@ import app.musiko.service.MusicService.*
 
 abstract class BaseAppWidget : AppWidgetProvider() {
 
-    /**
-     * {@inheritDoc}
-     */
+
     override fun onUpdate(
         context: Context,
         appWidgetManager: AppWidgetManager,
@@ -39,9 +37,7 @@ abstract class BaseAppWidget : AppWidgetProvider() {
         context.sendBroadcast(updateIntent)
     }
 
-    /**
-     * Handle a change notification coming over from [MusicService]
-     */
+
     fun notifyChange(service: MusicService, what: String) {
         if (hasInstances(service)) {
             if (META_CHANGED == what || PLAY_STATE_CHANGED == what) {
@@ -63,9 +59,7 @@ abstract class BaseAppWidget : AppWidgetProvider() {
         }
     }
 
-    /**
-     * Check against [AppWidgetManager] if there are any instances of this widget.
-     */
+
     private fun hasInstances(context: Context): Boolean {
         val appWidgetManager = AppWidgetManager.getInstance(context)
         val mAppWidgetIds = appWidgetManager.getAppWidgetIds(

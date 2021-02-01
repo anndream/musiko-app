@@ -32,9 +32,6 @@ import com.afollestad.materialcab.MaterialCab
 import com.bumptech.glide.Glide
 import me.zhanghai.android.fastscroll.PopupTextProvider
 
-/**
- * Created by hemanths on 13/08/17.
- */
 
 open class SongAdapter(
     protected val activity: FragmentActivity,

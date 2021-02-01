@@ -7,9 +7,7 @@ import androidx.preference.Preference
 import app.musiko.AUTO_DOWNLOAD_IMAGES_POLICY
 import app.musiko.R
 
-/**
- * @author Hemanth S (h4h13).
- */
+
 
 class ImageSettingFragment : AbsSettingsFragment() {
     override fun invalidateSettings() {

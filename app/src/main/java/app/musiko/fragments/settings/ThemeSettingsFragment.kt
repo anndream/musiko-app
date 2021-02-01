@@ -15,9 +15,7 @@ import app.musiko.appshortcuts.DynamicShortcutManager
 import app.musiko.util.PreferenceUtil
 import com.afollestad.materialdialogs.color.ColorChooserDialog
 
-/**
- * @author Hemanth S (h4h13).
- */
+
 
 class ThemeSettingsFragment : AbsSettingsFragment() {
     override fun invalidateSettings() {

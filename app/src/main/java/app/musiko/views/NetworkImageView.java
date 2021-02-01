@@ -10,7 +10,7 @@ import androidx.annotation.Nullable;
 import app.musiko.R;
 import com.bumptech.glide.Glide;
 
-/** @author Hemanth S (h4h13). */
+
 public class NetworkImageView extends CircularImageView {
 
   public NetworkImageView(@NonNull Context context) {

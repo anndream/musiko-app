@@ -29,9 +29,6 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 
-/**
- * Created by hemanths on 2020-02-02.
- */
 
 class DriveModeActivity : AbsMusicServiceActivity(), Callback {
 

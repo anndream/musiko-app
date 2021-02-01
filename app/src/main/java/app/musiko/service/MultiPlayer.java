@@ -17,7 +17,7 @@ import app.musiko.R;
 import app.musiko.service.playback.Playback;
 import app.musiko.util.PreferenceUtil;
 
-/** @author Andrew Neal, Karim Abou Zeid (kabouzeid) */
+
 public class MultiPlayer
     implements Playback, MediaPlayer.OnErrorListener, MediaPlayer.OnCompletionListener {
   public static final String TAG = MultiPlayer.class.getSimpleName();

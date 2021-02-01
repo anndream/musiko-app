@@ -9,9 +9,7 @@ import androidx.preference.TwoStatePreference
 import app.musiko.*
 import app.musiko.util.PreferenceUtil
 
-/**
- * @author Hemanth S (h4h13).
- */
+
 
 class NowPlayingSettingsFragment : AbsSettingsFragment(),
     SharedPreferences.OnSharedPreferenceChangeListener {

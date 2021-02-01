@@ -3,9 +3,7 @@ package app.musiko.model
 
 import kotlinx.android.parcel.Parcelize
 
-/**
- * Created by hemanths on 3/4/19
- */
+
 @Parcelize
 class PlaylistSong(
     override val id: Long,

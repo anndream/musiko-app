@@ -30,9 +30,7 @@ import com.bumptech.glide.request.animation.GlideAnimation
 import com.bumptech.glide.request.target.SimpleTarget
 import com.bumptech.glide.request.target.Target
 
-/**
- * @author Hemanth S (h4h13).
- */
+
 class PlayingNotificationOreo : PlayingNotification() {
 
     private var target: Target<BitmapPaletteWrapper>? = null

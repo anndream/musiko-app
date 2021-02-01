@@ -12,9 +12,7 @@ import app.musiko.helper.MusicProgressViewUpdateHelper
 import app.musiko.util.PreferenceUtil
 import app.musiko.util.color.MediaNotificationProcessor
 
-/**
- * Created by hemanths on 24/09/17.
- */
+
 
 abstract class AbsPlayerControlsFragment(@LayoutRes layout: Int) : AbsMusicServiceFragment(layout),
     MusicProgressViewUpdateHelper.Callback {

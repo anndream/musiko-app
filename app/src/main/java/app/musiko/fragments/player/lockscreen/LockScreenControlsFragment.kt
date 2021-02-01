@@ -27,9 +27,7 @@ import app.musiko.util.PreferenceUtil
 import app.musiko.util.color.MediaNotificationProcessor
 import kotlinx.android.synthetic.main.fragment_lock_screen_playback_controls.*
 
-/**
- * @author Hemanth S (h4h13).
- */
+
 class LockScreenControlsFragment :
     AbsPlayerControlsFragment(R.layout.fragment_lock_screen_playback_controls) {
 

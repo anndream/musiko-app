@@ -9,11 +9,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
 
-/**
- * This cursor basically wraps a song cursor and is given a list of the order of the ids of the
- * contents of the cursor. It wraps the Cursor and simulates the internal cursor being sorted by
- * moving the point to the appropriate spot
- */
+
 public class SortedLongCursor extends AbstractCursor {
   // cursor to wrap
   private final Cursor mCursor;

@@ -7,9 +7,7 @@ import android.graphics.Bitmap;
 import java.io.File;
 import java.io.IOException;
 
-/**
- * Created on : June 18, 2016 Author : zetbaitsu Name : Zetra GitHub : https://github.com/zetbaitsu
- */
+
 public class Compressor {
   // max width and height values of the compressed image is taken as 612x816
   private int maxWidth = 612;

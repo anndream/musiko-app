@@ -12,10 +12,6 @@ import app.musiko.COLORED_NOTIFICATION
 import app.musiko.R
 import app.musiko.util.PreferenceUtil
 
-/**
- * @author Hemanth S (h4h13).
- */
-
 class NotificationSettingsFragment : AbsSettingsFragment(),
     SharedPreferences.OnSharedPreferenceChangeListener {
     override fun onSharedPreferenceChanged(sharedPreferences: SharedPreferences?, key: String?) {

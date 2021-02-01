@@ -9,9 +9,7 @@ import app.musiko.EQUALIZER
 import app.musiko.R
 import app.musiko.util.NavigationUtil
 
-/**
- * @author Hemanth S (h4h13).
- */
+
 
 class AudioSettings : AbsSettingsFragment() {
     override fun invalidateSettings() {

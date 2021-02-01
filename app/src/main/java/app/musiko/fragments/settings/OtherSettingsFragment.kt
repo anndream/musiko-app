@@ -12,9 +12,7 @@ import app.musiko.fragments.LibraryViewModel
 import app.musiko.fragments.ReloadType.HomeSections
 import org.koin.androidx.viewmodel.ext.android.sharedViewModel
 
-/**
- * @author Hemanth S (h4h13).
- */
+
 
 class OtherSettingsFragment : AbsSettingsFragment() {
     private val libraryViewModel by sharedViewModel<LibraryViewModel>()
